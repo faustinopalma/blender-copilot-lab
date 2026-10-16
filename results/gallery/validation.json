@@ -1,0 +1,387 @@
+{
+  "blender": "5.2.2 LTS",
+  "subjects_verified": 10,
+  "original_files_unchanged": true,
+  "subjects": [
+    {
+      "slug": "01-fabric-data-city",
+      "objects": 204,
+      "converted_font_objects": 5,
+      "converted_curve_objects": 7,
+      "exported_mesh_objects": 197,
+      "excluded_studio_objects": [
+        "Label FABRIC - DATA CITY",
+        "Label MICROSOFT CONCEPT STUDY  /  01",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 384527,
+        "sha256": "167f2bfd4dad18f669f19417ae1fef6885767ee05d28378a8f40ba92d8a79007"
+      },
+      "images": {
+        "01-fabric-data-city-preview.png": {
+          "bytes": 453432,
+          "sha256": "1ebc30f0cf8c2b1516e9b5f3bcb9f6cdd9abe16d10987b7b53f6525372dae537",
+          "rgb_std": 0.26355209946632385
+        },
+        "01-fabric-data-city.png": {
+          "bytes": 954765,
+          "sha256": "50e98be4e2a5bb23a4a6ed7bcc2f244c4b9a382bed785448bbe47d0f702937c1",
+          "rgb_std": 0.26386532187461853
+        }
+      },
+      "glb": {
+        "bytes": 1700920,
+        "sha256": "b970098bf656bbb37371336220d691626f8b677aa6864cbb2f07c0cccbd6b836",
+        "meshes": 197,
+        "nodes": 197,
+        "materials": 9,
+        "triangles": 64908
+      },
+      "export_seconds": 0.7767132000008132,
+      "verification_and_export_seconds": 1.4376270000066143
+    },
+    {
+      "slug": "02-onelake",
+      "objects": 186,
+      "converted_font_objects": 7,
+      "converted_curve_objects": 24,
+      "exported_mesh_objects": 179,
+      "excluded_studio_objects": [
+        "Label ONELAKE - SHARED DATA",
+        "Label MICROSOFT CONCEPT STUDY  /  02",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 312017,
+        "sha256": "321e2243a5e01552622f1c33583efb010316d9f733364807280faedc86f9a5b0"
+      },
+      "images": {
+        "02-onelake-preview.png": {
+          "bytes": 420892,
+          "sha256": "c63fb714b473a2711d4b85a3295137c9d2e8e1c8fc3fbb9d27461ad643fbe6d1",
+          "rgb_std": 0.23405693471431732
+        },
+        "02-onelake.png": {
+          "bytes": 896273,
+          "sha256": "52d93c5dbd66f8c6d0e1544eec33ba6812db987752a60cfc23ad828ca3b272f4",
+          "rgb_std": 0.2338714450597763
+        }
+      },
+      "glb": {
+        "bytes": 1972256,
+        "sha256": "2ae90367365b80935f1ebbece9a2da6163703c9661b327ca58c47d823067e173",
+        "meshes": 179,
+        "nodes": 179,
+        "materials": 14,
+        "triangles": 79188
+      },
+      "export_seconds": 0.6537941999995383,
+      "verification_and_export_seconds": 1.823582199998782
+    },
+    {
+      "slug": "03-medallion",
+      "objects": 194,
+      "converted_font_objects": 10,
+      "converted_curve_objects": 0,
+      "exported_mesh_objects": 187,
+      "excluded_studio_objects": [
+        "Label FABRIC - MEDALLION ARCHITECTURE",
+        "Label MICROSOFT CONCEPT STUDY  /  03",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 297018,
+        "sha256": "696a6831f7ad940d8a0e4612a6d5c0a3facb8e8e65e328e28f905928bbeb0acb"
+      },
+      "images": {
+        "03-medallion-preview.png": {
+          "bytes": 414103,
+          "sha256": "97d84c655e045abed5a8a96c8b2181074e38e202171823df712fbd48a0d23cfc",
+          "rgb_std": 0.21721318364143372
+        },
+        "03-medallion.png": {
+          "bytes": 874733,
+          "sha256": "3f2b6ded89f00c42ad53bcadc460c3b8067cc829d7855e9195f366eed1c927d3",
+          "rgb_std": 0.2165486067533493
+        }
+      },
+      "glb": {
+        "bytes": 1769972,
+        "sha256": "9efe63c397538a36fac960b536edafdf976e1fbf36437ff72d19a753948b1b9c",
+        "meshes": 187,
+        "nodes": 187,
+        "materials": 14,
+        "triangles": 57322
+      },
+      "export_seconds": 0.6612281000125222,
+      "verification_and_export_seconds": 1.6725063000048976
+    },
+    {
+      "slug": "04-data-factory",
+      "objects": 205,
+      "converted_font_objects": 5,
+      "converted_curve_objects": 3,
+      "exported_mesh_objects": 198,
+      "excluded_studio_objects": [
+        "Label DATA FACTORY - FLOW WORKS",
+        "Label MICROSOFT CONCEPT STUDY  /  04",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 330026,
+        "sha256": "a26d9a1ac674aba4e6f088fa37ea5d2b51e58b61a17019f3966cb96c68dce846"
+      },
+      "images": {
+        "04-data-factory-preview.png": {
+          "bytes": 464909,
+          "sha256": "b9df4955d31b3b318a92fd2ce8af400f49744dbe8d23a4e6e7171e0529e47e26",
+          "rgb_std": 0.26202911138534546
+        },
+        "04-data-factory.png": {
+          "bytes": 977112,
+          "sha256": "6d44d98578661b47d6755a894abf1f123f785baa12124bdc5ba86545278adcba",
+          "rgb_std": 0.2624310553073883
+        }
+      },
+      "glb": {
+        "bytes": 1476736,
+        "sha256": "e52838b4066ce49b38737bbef2ac44412677771dc04794dd52456152aa1a28a0",
+        "meshes": 198,
+        "nodes": 198,
+        "materials": 9,
+        "triangles": 54800
+      },
+      "export_seconds": 0.626765199995134,
+      "verification_and_export_seconds": 1.6460691999964183
+    },
+    {
+      "slug": "05-foundry-forge",
+      "objects": 201,
+      "converted_font_objects": 9,
+      "converted_curve_objects": 5,
+      "exported_mesh_objects": 194,
+      "excluded_studio_objects": [
+        "Label FOUNDRY - AGENT FORGE",
+        "Label MICROSOFT CONCEPT STUDY  /  05",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 334744,
+        "sha256": "bcfb20644962fe881f91b4f4062031099f11d58451389ff384b5d7555b3d2e0f"
+      },
+      "images": {
+        "05-foundry-forge-preview.png": {
+          "bytes": 455613,
+          "sha256": "0daface9ca462c59c7c5ff50e7ef372f1b64d5f5bca19343ebc5ac8d528f17c1",
+          "rgb_std": 0.22902429103851318
+        },
+        "05-foundry-forge.png": {
+          "bytes": 956136,
+          "sha256": "490392ee23b5f2a32c45642bf65f2da34e135998f7d1e4df35a0ffdc0f6040bc",
+          "rgb_std": 0.22892308235168457
+        }
+      },
+      "glb": {
+        "bytes": 1855096,
+        "sha256": "8f76557392e0ae87652435d54df6242c13bed42ad0fbeadbd8b4d5bc52337e74",
+        "meshes": 194,
+        "nodes": 194,
+        "materials": 11,
+        "triangles": 68020
+      },
+      "export_seconds": 0.7872523000114597,
+      "verification_and_export_seconds": 1.9068423000135226
+    },
+    {
+      "slug": "06-agent-team",
+      "objects": 185,
+      "converted_font_objects": 11,
+      "converted_curve_objects": 13,
+      "exported_mesh_objects": 178,
+      "excluded_studio_objects": [
+        "Label FOUNDRY - AGENT TEAM",
+        "Label MICROSOFT CONCEPT STUDY  /  06",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 349307,
+        "sha256": "df761dd9d0adf6cbf640a047d63dc644c556c3fe2de69ef9e9aab236561db744"
+      },
+      "images": {
+        "06-agent-team-preview.png": {
+          "bytes": 441999,
+          "sha256": "20549fd4f715520ae7db949c26881885e14c7a6a2c1068af0bbaa1e68822570f",
+          "rgb_std": 0.2579936683177948
+        },
+        "06-agent-team.png": {
+          "bytes": 931320,
+          "sha256": "b481b09e7117d4a935b12c107dd4c9067578ce46d2eb6df388b84f304fa50d06",
+          "rgb_std": 0.2582155168056488
+        }
+      },
+      "glb": {
+        "bytes": 2040760,
+        "sha256": "1091bb56c12ca1cd9883bc6442d01d0b992b7b8cb69c12b282fce95016203f4a",
+        "meshes": 178,
+        "nodes": 178,
+        "materials": 8,
+        "triangles": 73212
+      },
+      "export_seconds": 0.7731543999980204,
+      "verification_and_export_seconds": 1.9500789000012446
+    },
+    {
+      "slug": "07-rag-library",
+      "objects": 216,
+      "converted_font_objects": 10,
+      "converted_curve_objects": 3,
+      "exported_mesh_objects": 209,
+      "excluded_studio_objects": [
+        "Label FOUNDRY - KNOWLEDGE LIBRARY",
+        "Label MICROSOFT CONCEPT STUDY  /  07",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 297046,
+        "sha256": "7473a3d6573a322e3d3534a4aba6026837c024f680b4281ca7f6abf1fab6563f"
+      },
+      "images": {
+        "07-rag-library-preview.png": {
+          "bytes": 441316,
+          "sha256": "303730da955429aa84c75490fc59bc08eee69b53acce115557a8fc50bfdf8ed7",
+          "rgb_std": 0.2263505756855011
+        },
+        "07-rag-library.png": {
+          "bytes": 931572,
+          "sha256": "b323fa719d9300fe654587b0120299157cad62a73c4604dfb1783af0a399e100",
+          "rgb_std": 0.22626152634620667
+        }
+      },
+      "glb": {
+        "bytes": 1496192,
+        "sha256": "b2017bffc21776e73430efdbefd3d5bc315fb51e338412e2624f7fd3090a0323",
+        "meshes": 209,
+        "nodes": 209,
+        "materials": 9,
+        "triangles": 51248
+      },
+      "export_seconds": 0.8591990999993868,
+      "verification_and_export_seconds": 2.0943647000094643
+    },
+    {
+      "slug": "08-azure-archipelago",
+      "objects": 207,
+      "converted_font_objects": 6,
+      "converted_curve_objects": 14,
+      "exported_mesh_objects": 200,
+      "excluded_studio_objects": [
+        "Label AZURE - CLOUD ARCHIPELAGO",
+        "Label MICROSOFT CONCEPT STUDY  /  08",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 341815,
+        "sha256": "658bbb61c56005d759c1d5544d61d29c2b860c697873d7a22eb969d38091f68a"
+      },
+      "images": {
+        "08-azure-archipelago-preview.png": {
+          "bytes": 427120,
+          "sha256": "4dd260b420debe5e7171a441ea94307623527e18773753a816d18eac9be40c7a",
+          "rgb_std": 0.24088945984840393
+        },
+        "08-azure-archipelago.png": {
+          "bytes": 903286,
+          "sha256": "9bf34c3ec1739ceb43f810a8ab0eb269a4bebd49a8a96c8b25d4c762eb4a41bb",
+          "rgb_std": 0.24049612879753113
+        }
+      },
+      "glb": {
+        "bytes": 2061524,
+        "sha256": "3c6690405d5f080f2a6c3fda572c91b3440ecbfe6e6bbb1b3f2cdb37219d372d",
+        "meshes": 200,
+        "nodes": 200,
+        "materials": 7,
+        "triangles": 82154
+      },
+      "export_seconds": 0.7666521999926772,
+      "verification_and_export_seconds": 1.9494435999949928
+    },
+    {
+      "slug": "09-zero-trust",
+      "objects": 208,
+      "converted_font_objects": 8,
+      "converted_curve_objects": 10,
+      "exported_mesh_objects": 201,
+      "excluded_studio_objects": [
+        "Label AZURE - ZERO TRUST CITADEL",
+        "Label MICROSOFT CONCEPT STUDY  /  09",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 346871,
+        "sha256": "4cab67e98d0b1cc232ffa52d7eb2c31b6c346397b680be2baf2e0df9a965c0db"
+      },
+      "images": {
+        "09-zero-trust-preview.png": {
+          "bytes": 449537,
+          "sha256": "27be0c1c959cfe81fd860f07242c54679856fa651bddb87387492dd65e7197e3",
+          "rgb_std": 0.24087196588516235
+        },
+        "09-zero-trust.png": {
+          "bytes": 948686,
+          "sha256": "a5fe1b608c470e6de68e1e14a53249d7598606bc4e0354c0c113fd934483fa41",
+          "rgb_std": 0.2405424267053604
+        }
+      },
+      "glb": {
+        "bytes": 1648860,
+        "sha256": "8735cd0dbba94e3244c9729b36faeab1d5e4ce927edc323d1e26604765f5dedf",
+        "meshes": 201,
+        "nodes": 201,
+        "materials": 8,
+        "triangles": 61120
+      },
+      "export_seconds": 0.744454500003485,
+      "verification_and_export_seconds": 1.9517912000010256
+    },
+    {
+      "slug": "10-data-to-action",
+      "objects": 209,
+      "converted_font_objects": 18,
+      "converted_curve_objects": 4,
+      "exported_mesh_objects": 202,
+      "excluded_studio_objects": [
+        "Label FABRIC + FOUNDRY + AZURE",
+        "Label MICROSOFT CONCEPT STUDY  /  10",
+        "Studio floor"
+      ],
+      "blend": {
+        "bytes": 347978,
+        "sha256": "1f06890f25735a156db9ce25d618cc8cbd20b79452e58207e2afbb56a687a149"
+      },
+      "images": {
+        "10-data-to-action-preview.png": {
+          "bytes": 476105,
+          "sha256": "e5e1d55542c42ed549d22bdae140b03063d5521cf1289d5ae4a560f9ffa48e37",
+          "rgb_std": 0.23575472831726074
+        },
+        "10-data-to-action.png": {
+          "bytes": 1002351,
+          "sha256": "22a726160528747746464a2c145edbe876714ed0dfd6163b62ca6e93687d844f",
+          "rgb_std": 0.23582595586776733
+        }
+      },
+      "glb": {
+        "bytes": 2179916,
+        "sha256": "db7787705b6e5fb2c9ccb59196af8fac4694ec3192f79320ed9a0f9aecddee14",
+        "meshes": 202,
+        "nodes": 202,
+        "materials": 12,
+        "triangles": 75892
+      },
+      "export_seconds": 0.8584613999992143,
+      "verification_and_export_seconds": 2.2040218000038294
+    }
+  ]
+}

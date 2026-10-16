@@ -1,0 +1,1892 @@
+{
+  "camera": "Portrait camera",
+  "engine": "BLENDER_EEVEE",
+  "materials": [
+    {
+      "color": [
+        0.95,
+        0.42,
+        0.09,
+        1.0
+      ],
+      "name": "Amber satellite"
+    },
+    {
+      "color": [
+        0.92,
+        0.22,
+        0.27,
+        1.0
+      ],
+      "name": "Coral nose"
+    },
+    {
+      "color": [
+        0.96,
+        0.99,
+        1.0,
+        1.0
+      ],
+      "name": "Eye sparkle"
+    },
+    {
+      "color": [
+        0.025,
+        0.65,
+        0.64,
+        1.0
+      ],
+      "name": "Lagoon accent"
+    },
+    {
+      "color": [
+        0.018,
+        0.032,
+        0.065,
+        1.0
+      ],
+      "name": "Midnight enamel"
+    },
+    {
+      "color": [
+        0.08,
+        0.9,
+        0.76,
+        1.0
+      ],
+      "name": "Mint light"
+    },
+    {
+      "color": [
+        0.004,
+        0.008,
+        0.018,
+        1.0
+      ],
+      "name": "Obsidian eyes"
+    },
+    {
+      "color": [
+        0.035,
+        0.06,
+        0.1,
+        1.0
+      ],
+      "name": "Stage graphite"
+    },
+    {
+      "color": [
+        0.035,
+        0.055,
+        0.09,
+        1.0
+      ],
+      "name": "Studio navy"
+    },
+    {
+      "color": [
+        0.94,
+        0.71,
+        0.52,
+        1.0
+      ],
+      "name": "Warm porcelain"
+    }
+  ],
+  "objects": [
+    {
+      "dimensions": [
+        2.64,
+        1.76,
+        2.26
+      ],
+      "faces": 1152,
+      "location": [
+        0.0,
+        0.0,
+        3.55
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Cat head",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.32,
+        0.88,
+        1.13
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        1.54,
+        1.3,
+        1.94
+      ],
+      "faces": 1152,
+      "location": [
+        0.0,
+        0.08,
+        1.9
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Cat torso",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.77,
+        0.65,
+        0.97
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.34,
+        0.05,
+        0.16
+      ],
+      "faces": 1152,
+      "location": [
+        -0.72,
+        -0.96,
+        3.28
+      ],
+      "materials": [
+        "Coral nose"
+      ],
+      "name": "Cheek -1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.025,
+        0.08
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.34,
+        0.05,
+        0.16
+      ],
+      "faces": 1152,
+      "location": [
+        0.72,
+        -0.96,
+        3.28
+      ],
+      "materials": [
+        "Coral nose"
+      ],
+      "name": "Cheek 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.025,
+        0.08
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.94,
+        0.26,
+        0.8
+      ],
+      "faces": 1152,
+      "location": [
+        0.0,
+        -0.55,
+        2.04
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Coder badge",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.47,
+        0.13,
+        0.4
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        5.24,
+        5.24,
+        0.28
+      ],
+      "faces": 130,
+      "location": [
+        0.0,
+        0.0,
+        0.25
+      ],
+      "materials": [
+        "Stage graphite"
+      ],
+      "name": "Display plinth",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "MESH",
+      "vertices": 256
+    },
+    {
+      "dimensions": [
+        0.76257,
+        0.62889,
+        1.01397
+      ],
+      "faces": 5,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Ear L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "MESH",
+      "vertices": 6
+    },
+    {
+      "dimensions": [
+        0.76257,
+        0.62889,
+        1.01397
+      ],
+      "faces": 5,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Ear R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "MESH",
+      "vertices": 6
+    },
+    {
+      "dimensions": [
+        0.41,
+        0.166,
+        0.57
+      ],
+      "faces": 1152,
+      "location": [
+        -0.43,
+        -0.976,
+        3.66
+      ],
+      "materials": [
+        "Obsidian eyes"
+      ],
+      "name": "Eye -1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.205,
+        0.083,
+        0.285
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.41,
+        0.166,
+        0.57
+      ],
+      "faces": 1152,
+      "location": [
+        0.43,
+        -0.976,
+        3.66
+      ],
+      "materials": [
+        "Obsidian eyes"
+      ],
+      "name": "Eye 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.205,
+        0.083,
+        0.285
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        2.11,
+        0.43,
+        1.64
+      ],
+      "faces": 1152,
+      "location": [
+        0.0,
+        -0.77,
+        3.49
+      ],
+      "materials": [
+        "Warm porcelain"
+      ],
+      "name": "Face mask",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.055,
+        0.215,
+        0.82
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.26,
+        0.26,
+        0.26
+      ],
+      "faces": 1152,
+      "location": [
+        -2.05,
+        0.35,
+        3.2
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Floating bit 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.34,
+        0.34,
+        0.34
+      ],
+      "faces": 1152,
+      "location": [
+        2.0,
+        0.4,
+        4.15
+      ],
+      "materials": [
+        "Amber satellite"
+      ],
+      "name": "Floating bit 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.17,
+        0.17
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "faces": 1152,
+      "location": [
+        1.8,
+        0.35,
+        2.8
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Floating bit 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.075
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.34,
+        0.11,
+        0.58
+      ],
+      "faces": 1152,
+      "location": [
+        -1.0,
+        -0.35,
+        4.55
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Inner ear -1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.055,
+        0.29
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.34,
+        0.11,
+        0.58
+      ],
+      "faces": 1152,
+      "location": [
+        1.0,
+        -0.35,
+        4.55
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Inner ear 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.055,
+        0.29
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": null,
+      "location": [
+        2.0,
+        -6.0,
+        8.0
+      ],
+      "materials": [],
+      "name": "Key softbox",
+      "rotation": [
+        0.85502,
+        -0.0,
+        0.32175
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "LIGHT",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.21,
+        0.11,
+        0.15
+      ],
+      "faces": 1152,
+      "location": [
+        0.0,
+        -1.01,
+        3.39
+      ],
+      "materials": [
+        "Coral nose"
+      ],
+      "name": "Nose",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.105,
+        0.055,
+        0.075
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        1.1272,
+        0.12944,
+        0.016
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        -2.626,
+        0.21
+      ],
+      "materials": [
+        "Mint light"
+      ],
+      "name": "Plinth label",
+      "rotation": [
+        1.5708,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "FONT",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": null,
+      "location": [
+        6.0,
+        -12.5,
+        6.9
+      ],
+      "materials": [],
+      "name": "Portrait camera",
+      "rotation": [
+        1.26024,
+        0.0,
+        0.44752
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CAMERA",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.45449,
+        0.06788,
+        0.11388
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Smile",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.126,
+        0.052,
+        0.15
+      ],
+      "faces": 1152,
+      "location": [
+        -0.485,
+        -1.05,
+        3.77
+      ],
+      "materials": [
+        "Eye sparkle"
+      ],
+      "name": "Sparkle -1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.063,
+        0.026,
+        0.075
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.126,
+        0.052,
+        0.15
+      ],
+      "faces": 1152,
+      "location": [
+        0.375,
+        -1.05,
+        3.77
+      ],
+      "materials": [
+        "Eye sparkle"
+      ],
+      "name": "Sparkle 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.063,
+        0.026,
+        0.075
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        5.064,
+        5.064,
+        0.064
+      ],
+      "faces": 2048,
+      "location": [
+        0.0,
+        0.0,
+        0.41
+      ],
+      "materials": [
+        "Mint light"
+      ],
+      "name": "Status ring",
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "MESH",
+      "vertices": 2048
+    },
+    {
+      "dimensions": [
+        200.0,
+        200.0,
+        0.0
+      ],
+      "faces": 1,
+      "location": [
+        0.0,
+        0.0,
+        0.065
+      ],
+      "materials": [
+        "Studio navy"
+      ],
+      "name": "Studio floor",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "MESH",
+      "vertices": 4
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -1.06252,
+        -0.2847,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 0 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -1.28468,
+        -0.34423,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 0 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -1.50684,
+        -0.40376,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 0 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -0.2847,
+        -1.06252,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 1 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -0.34423,
+        -1.28468,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 1 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -0.40376,
+        -1.50684,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 1 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        0.77782,
+        -0.77782,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 2 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        0.94045,
+        -0.94045,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 2 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        1.10309,
+        -1.10309,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 2 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        1.06252,
+        0.2847,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 3 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        1.28468,
+        0.34423,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 3 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        1.50684,
+        0.40376,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 3 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        0.2847,
+        1.06252,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 4 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        0.34423,
+        1.28468,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 4 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        0.40376,
+        1.50684,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 4 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -0.77782,
+        0.77782,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 5 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -0.94045,
+        0.94045,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 5 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.14,
+        0.14,
+        0.08
+      ],
+      "faces": 1152,
+      "location": [
+        -1.10309,
+        1.10309,
+        0.77
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Sucker 5 2",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.07,
+        0.07,
+        0.04
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": null,
+      "location": [
+        3.0,
+        4.0,
+        7.0
+      ],
+      "materials": [],
+      "name": "Teal rim",
+      "rotation": [
+        0.83798,
+        0.0,
+        2.49809
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "LIGHT",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        1.87863,
+        1.0764,
+        1.28217
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Tentacle 01",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.78443,
+        1.97982,
+        1.28217
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Tentacle 02",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        1.6771,
+        1.41711,
+        1.28217
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Tentacle 03",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        1.87863,
+        1.0764,
+        1.28217
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Tentacle 04",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.78443,
+        1.97982,
+        1.28217
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Tentacle 05",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        1.6771,
+        1.41711,
+        1.28217
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Tentacle 06",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.19
+      ],
+      "faces": 1152,
+      "location": [
+        -1.82384,
+        -0.8821,
+        1.13
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Tentacle tip 01",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.095
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.19
+      ],
+      "faces": 1152,
+      "location": [
+        -0.148,
+        -2.02054,
+        1.13
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Tentacle tip 02",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.095
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.19
+      ],
+      "faces": 1152,
+      "location": [
+        1.67584,
+        -1.13844,
+        1.13
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Tentacle tip 03",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.095
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.19
+      ],
+      "faces": 1152,
+      "location": [
+        1.82384,
+        0.8821,
+        1.13
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Tentacle tip 04",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.095
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.19
+      ],
+      "faces": 1152,
+      "location": [
+        0.148,
+        2.02054,
+        1.13
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Tentacle tip 05",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.095
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.15,
+        0.15,
+        0.19
+      ],
+      "faces": 1152,
+      "location": [
+        -1.67584,
+        1.13844,
+        1.13
+      ],
+      "materials": [
+        "Lagoon accent"
+      ],
+      "name": "Tentacle tip 06",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.075,
+        0.075,
+        0.095
+      ],
+      "type": "MESH",
+      "vertices": 1106
+    },
+    {
+      "dimensions": [
+        0.27945,
+        0.19494,
+        0.016
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        -0.691,
+        1.96
+      ],
+      "materials": [
+        "Eye sparkle"
+      ],
+      "name": "Terminal glyph",
+      "rotation": [
+        1.5708,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "FONT",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "faces": null,
+      "location": [
+        -5.0,
+        -2.0,
+        4.0
+      ],
+      "materials": [],
+      "name": "Warm fill",
+      "rotation": [
+        1.29914,
+        -0.0,
+        -1.19029
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "LIGHT",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.5883,
+        0.1176,
+        0.13653
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Whisker -1 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.5883,
+        0.1176,
+        0.13653
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Whisker -1 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.5883,
+        0.1176,
+        0.13653
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Whisker 1 0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    },
+    {
+      "dimensions": [
+        0.5883,
+        0.1176,
+        0.13653
+      ],
+      "faces": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [
+        "Midnight enamel"
+      ],
+      "name": "Whisker 1 1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "CURVE",
+      "vertices": null
+    }
+  ],
+  "resolution": [
+    640,
+    640
+  ]
+}

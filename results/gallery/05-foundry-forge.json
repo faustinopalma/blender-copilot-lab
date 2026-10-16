@@ -1,0 +1,56 @@
+{
+  "slug": "05-foundry-forge",
+  "title": "Foundry - Agent Forge",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T16:08:14.453955+00:00",
+      "source_sha256": "86f46be2f0e363cf9b36e45e89aaf91791bd7ff3a8bed2be2fcd1a066f7e553c",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 139,
+      "phases_seconds": {
+        "initialize": 1.7587283999891952,
+        "build": 39.624260600001435,
+        "preview_render": 53.628863600009936,
+        "final_render": 66.20121119999385,
+        "save": 18.771911599993473
+      },
+      "scene": {
+        "slug": "05-foundry-forge",
+        "objects": 201,
+        "mesh_objects": 181,
+        "curve_objects": 5,
+        "vertices": 12048,
+        "camera_scale": 17.836360931396484,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:11:14.652359+00:00",
+      "total_seconds": 180.20314689999213
+    },
+    {
+      "started_at_utc": "2026-10-16T16:11:47.415004+00:00",
+      "source_sha256": "f7eb5b42877d9146357f3e6f8295308966bd9f55cd610ca99a2f967d923dc723",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 144,
+      "phases_seconds": {
+        "initialize": 1.5586305000033462,
+        "build": 37.64767189999111,
+        "preview_render": 57.38877340000181,
+        "final_render": 52.12443019999773,
+        "save": 18.059635400000843
+      },
+      "scene": {
+        "slug": "05-foundry-forge",
+        "objects": 201,
+        "mesh_objects": 181,
+        "curve_objects": 5,
+        "vertices": 12048,
+        "camera_scale": 17.836355209350586,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:14:34.374263+00:00",
+      "total_seconds": 166.9635763999977
+    }
+  ]
+}

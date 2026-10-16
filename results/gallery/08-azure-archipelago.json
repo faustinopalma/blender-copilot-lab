@@ -1,0 +1,56 @@
+{
+  "slug": "08-azure-archipelago",
+  "title": "Azure - Cloud Archipelago",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T16:33:47.559889+00:00",
+      "source_sha256": "e88209b6a7822e73a80bcde1c3099211848528226db6e1e720ac16fb1c8d85a0",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 174,
+      "phases_seconds": {
+        "initialize": 1.4603246000042418,
+        "build": 37.36093249999976,
+        "preview_render": 56.487673700001324,
+        "final_render": 46.47604460000002,
+        "save": 13.528380500007188
+      },
+      "scene": {
+        "slug": "08-azure-archipelago",
+        "objects": 207,
+        "mesh_objects": 181,
+        "curve_objects": 14,
+        "vertices": 21505,
+        "camera_scale": 17.470422744750977,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:36:23.015275+00:00",
+      "total_seconds": 155.45942630000354
+    },
+    {
+      "started_at_utc": "2026-10-16T16:36:58.048028+00:00",
+      "source_sha256": "a69eb6d36eb5b93777b2383f70e94ca9adb5fa89599cbf361c629adcc734faa9",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 177,
+      "phases_seconds": {
+        "initialize": 1.6448430000018561,
+        "build": 40.531345199997304,
+        "preview_render": 63.84875750000356,
+        "final_render": 60.267724500008626,
+        "save": 19.025928500006557
+      },
+      "scene": {
+        "slug": "08-azure-archipelago",
+        "objects": 207,
+        "mesh_objects": 181,
+        "curve_objects": 14,
+        "vertices": 21505,
+        "camera_scale": 17.470422744750977,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:40:03.588730+00:00",
+      "total_seconds": 185.54533010000887
+    }
+  ]
+}

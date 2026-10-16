@@ -1,0 +1,56 @@
+{
+  "slug": "06-agent-team",
+  "title": "Foundry - Agent Team",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T16:17:05.233992+00:00",
+      "source_sha256": "24e6f6eeede253b14562d27304abc8a65a3eafa0087304223d7dfbc08a234dd4",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 172,
+      "phases_seconds": {
+        "initialize": 1.5580753000103869,
+        "build": 30.503417999992962,
+        "preview_render": 53.91234749999421,
+        "final_render": 54.09491830000479,
+        "save": 17.800141800005804
+      },
+      "scene": {
+        "slug": "06-agent-team",
+        "objects": 185,
+        "mesh_objects": 155,
+        "curve_objects": 13,
+        "vertices": 16742,
+        "camera_scale": 18.011003494262695,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:19:43.294477+00:00",
+      "total_seconds": 158.06456290000642
+    },
+    {
+      "started_at_utc": "2026-10-16T16:20:21.207299+00:00",
+      "source_sha256": "c9713bba1c3c1e5eb30b3038a626a1248811020bccf3e9a9de55e64cecabca6b",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 179,
+      "phases_seconds": {
+        "initialize": 2.0028958000038983,
+        "build": 32.485914899996715,
+        "preview_render": 48.63995409999916,
+        "final_render": 48.95636179999565,
+        "save": 15.412763500004075
+      },
+      "scene": {
+        "slug": "06-agent-team",
+        "objects": 185,
+        "mesh_objects": 155,
+        "curve_objects": 13,
+        "vertices": 16742,
+        "camera_scale": 18.011001586914062,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:22:48.958101+00:00",
+      "total_seconds": 147.7545828000002
+    }
+  ]
+}

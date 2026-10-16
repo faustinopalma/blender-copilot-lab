@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "reopen_direct_blend": true,
+    "reopen_mcp_blend": true,
+    "nonblank_direct.png": true,
+    "nonblank_mcp.png": true,
+    "nonblank_coding-cat.png": true,
+    "matching_api_mcp_render": true,
+    "glb_geometry_including_curves_and_text": true,
+    "reopen_final_scene_and_animation": true,
+    "no_embedded_scripts_or_object_drivers": true
+  },
+  "files": {
+    "coding-cat.blend": {
+      "bytes": 389743,
+      "sha256": "15896db4ceb717c6360a26604571f41a6c7e9515b3d95026c9942d7a2b32d4a6"
+    },
+    "coding-cat.glb": {
+      "bytes": 2302080,
+      "sha256": "ecb1c30f77969223272b7379008ecca5555aa6014d63cc1e14e9ba814fea553d"
+    },
+    "coding-cat.png": {
+      "bytes": 1658992,
+      "sha256": "95212b8940c7dca133d3f429c60ebb7a187eebeb6fe6eb6a1a6856c70cb333c1"
+    },
+    "direct.blend": {
+      "bytes": 351049,
+      "sha256": "fec6cb555b5d7b79a2d581092b034b9cd7e1b9ab5948d181ca31b357f5e81035"
+    },
+    "direct.png": {
+      "bytes": 512087,
+      "sha256": "c3b74636978996bcf8c0a306926432b869a549053e5445fd8af9c37aee15b4f7"
+    },
+    "mcp-tool-image.png": {
+      "bytes": 512086,
+      "sha256": "5140c182590f03647c51d444a5772574faef6bfe1d66d9914f86f0b027c4181c"
+    },
+    "mcp-viewport.png": {
+      "bytes": 257015,
+      "sha256": "69b89b5004f11e73de57271e4c99f2902f2a3ec1560eecba4fc29ea77cb2a89e"
+    },
+    "mcp.blend": {
+      "bytes": 389118,
+      "sha256": "883b9c056dc91520eed962e12599df36d8b7e542dd8dc0e47a50217a16375373"
+    },
+    "mcp.png": {
+      "bytes": 512086,
+      "sha256": "5140c182590f03647c51d444a5772574faef6bfe1d66d9914f86f0b027c4181c"
+    }
+  },
+  "direct.png": {
+    "width": 640,
+    "height": 640,
+    "rgb_stddev": 0.235275536775589
+  },
+  "mcp.png": {
+    "width": 640,
+    "height": 640,
+    "rgb_stddev": 0.23527555167675018
+  },
+  "coding-cat.png": {
+    "width": 1200,
+    "height": 1200,
+    "rgb_stddev": 0.23485852777957916
+  },
+  "pixel_comparison": {
+    "mean_absolute_error": 2.2339664340620402e-08,
+    "max_absolute_error": 0.00784313678741455,
+    "mean_error_limit": 0.01,
+    "normalized_channels": "0..1"
+  },
+  "glb_meshes": 58
+}

@@ -1,0 +1,12 @@
+.venv/
+.blender-user/
+wheelhouse/
+/vendor/
+node_modules/
+__pycache__/
+*.blend1
+*.blend2
+*.log
+.env
+.env.*
+/results/blender-ready.json

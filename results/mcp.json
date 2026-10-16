@@ -1,0 +1,365 @@
+{
+  "checks": {
+    "initialize_and_discovery": true,
+    "telemetry_opt_out": true,
+    "foreign_scene_not_overwritten": true,
+    "create_original_scene": true,
+    "identical_scene_snapshot": true,
+    "structured_scene_inspection": true,
+    "edit_and_restore": true,
+    "unsafe_import_blocked": true,
+    "raw_file_access_blocked": true,
+    "error_traceback_and_recovery": true,
+    "save_blend": true,
+    "render_png": true,
+    "mcp_image_content": true,
+    "live_viewport_capture": true,
+    "export_glb": true,
+    "twenty_sequential_reads": true,
+    "keyframe_animation": true,
+    "final_1200px_render": true
+  },
+  "calls": [
+    {
+      "tool": "get_addon_status",
+      "milliseconds": 347.35779999755323,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "{\n  \"up_to_date\": true,\n  \"protocol_version\": 13,\n  \"expected_protocol_version\": 13,\n  \"addon_version\": [\n    1,\n    8\n  ],\n  \"capabilities\": [\n    \"bpy_api_lookup\",\n    \"describe_node_type\",\n    \"drain_human_activity\",\n    \"execute_code\",\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 47.0729999942705,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: CONSENT={\"consent\": false}\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 55.83939999633003,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: DISPOSABLE_SCENE_CONFIRMED\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 50.36320000363048,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: PROTECTED=62\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 56.09019999974407,
+      "expected_failure": true,
+      "reported_failure": true,
+      "text_preview": "Error executing code: Communication error with Blender: {\"exception_type\": \"RuntimeError\", \"message\": \"Refusing to replace a scene outside the disposable Blender lab\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\code\\\\Ble"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 45.34499999135733,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: PROTECTED=62\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 1979.028499990818,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: SCENE_BUILT={\"objects\": 62, \"tentacles\": 6, \"engine\": \"BLENDER_EEVEE\", \"version\": \"5.2.2 LTS\"}\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 866.7827000026591,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: SNAPSHOT={\"camera\": \"Portrait camera\", \"engine\": \"BLENDER_EEVEE\", \"materials\": [{\"color\": [0.95, 0.42, 0.09, 1.0], \"name\": \"Amber satellite\"}, {\"color\": [0.92, 0.22, 0.27, 1.0], \"name\": \"Coral nose\"}, {\"color\": ["
+    },
+    {
+      "tool": "get_scene_info",
+      "milliseconds": 104.28059998957906,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Scene 'Coding Cat - original study' | 1 camera, 11 curve, 2 font, 3 light, 45 mesh | active Cat head | selected Cat head | mode OBJECT\n\nShowing 12 of 12 (name | type | location | size | materials):\nTentacle 01 | curve | at (0.0, 0.0, 0.0) |"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 75.38150000618771,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: EDIT={\"z\": 3.799999952316284}\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 148.0952999991132,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: RESTORE={\"z\": 3.549999952316284}\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 11.926300008781254,
+      "expected_failure": true,
+      "reported_failure": true,
+      "text_preview": "Rejected by safe mode - line 1: import of 'os' is not allowed\n\nBLENDER_MCP_SAFE_MODE is enabled: scripts may only import bpy, bmesh, mathutils, and pure-python stdlib modules. No eval/exec/open, no os/subprocess/network access, no handlers/"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 10.305899995728396,
+      "expected_failure": true,
+      "reported_failure": true,
+      "text_preview": "Rejected by safe mode - line 1: open() is forbidden: open() grants raw filesystem access; use bpy operators for file work\n\nBLENDER_MCP_SAFE_MODE is enabled: scripts may only import bpy, bmesh, mathutils, and pure-python stdlib modules. No e"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 108.82449999917299,
+      "expected_failure": true,
+      "reported_failure": true,
+      "text_preview": "Error executing code: Communication error with Blender: {\"exception_type\": \"ValueError\", \"message\": \"MCP_EXPECTED_ERROR\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\code\\\\BlenderMCP\\\\vendor\\\\mcp-for-blender\\\\addon.py\\\", "
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 71.64009999542031,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: RECOVERY_OK\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 2648.477200011257,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: Info: Saved as \"mcp.blend\"\nSAVE_OK\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 4937.318199998117,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: RENDER_OK\n"
+    },
+    {
+      "tool": "look",
+      "milliseconds": 900.5629000021145,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Image 'C:\\code\\BlenderMCP\\output\\mcp.png', 640x640, shown at 640x640."
+    },
+    {
+      "tool": "look",
+      "milliseconds": 1928.9431999932276,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": ""
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 1653.386899997713,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: INFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 500.10699999984354,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 137.4054000043543,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 102.94130000693258,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 95.65650000877213,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 79.09949999884702,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 99.2716000037035,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 135.12860001355875,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 66.78890000330284,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 82.3895000066841,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 66.30699998640921,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 65.75769999471959,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 64.6063000021968,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 60.48220000229776,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 72.50139999086969,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 60.611799999605864,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 50.546300000860356,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 56.73719999322202,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 47.43409999355208,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 48.48369999672286,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 53.24829999881331,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: READ=[[\"Cat head\", [0.0, 0.0, 3.549999952316284]], [\"Cat torso\", [0.0, 0.07999999821186066, 1.899999976158142]], [\"Cheek -1\", [-0.7200000286102295, -0.9599999785423279, 3.2799999713897705]], [\"Cheek 1\", [0.720000"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 73.14189999306109,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: ANIMATION={\"action\": \"Cat headAction\", \"frame\": 1}\n"
+    },
+    {
+      "tool": "execute_blender_code",
+      "milliseconds": 13654.23300000839,
+      "expected_failure": false,
+      "reported_failure": false,
+      "text_preview": "Code executed successfully: Info: Saved as \"coding-cat.blend\"\nFINAL_OK\n"
+    }
+  ],
+  "configuration": ".vscode\\mcp.json",
+  "initialize_seconds": 1.414306000006036,
+  "protocol": "2025-11-25",
+  "server": {
+    "name": "MCP for Blender",
+    "title": null,
+    "version": "1.30.0",
+    "websiteUrl": null,
+    "icons": null
+  },
+  "tool_names": [
+    "get_addon_status",
+    "disable_telemetry",
+    "get_scene_info",
+    "execute_blender_code",
+    "record_trajectory_feedback",
+    "look",
+    "generate_3d",
+    "search_assets",
+    "import_asset"
+  ],
+  "addon_status": "{\n  \"up_to_date\": true,\n  \"protocol_version\": 13,\n  \"expected_protocol_version\": 13,\n  \"addon_version\": [\n    1,\n    8\n  ],\n  \"capabilities\": [\n    \"bpy_api_lookup\",\n    \"describe_node_type\",\n    \"drain_human_activity\",\n    \"execute_code\",\n    \"get_addon_info\",\n    \"get_object_info\",\n    \"get_scene_info\",\n    \"get_telemetry_consent\",\n    \"get_viewport_screenshot\",\n    \"get_world_state_snapshot\",\n    \"list_scene_items\",\n    \"pick_viewport_object\",\n    \"set_telemetry_consent\"\n  ],\n  \"blender_version\": \"5.2.2 LTS\",\n  \"premium_generators\": [],\n  \"libraries\": {\n    \"polyhaven\": \"off\",\n    \"sketchfab\": \"off\",\n    \"polypizza\": \"off\"\n  },\n  \"generators\": {\n    \"tripo\": \"off (Premium only)\",\n    \"hunyuan3d\": \"off\",\n    \"hyper3d\": \"off\"\n  },\n  \"source\": \"native\",\n  \"warning\": null,\n  \"telemetry_consent\": false,\n  \"update_command\": \"uvx mcp-for-blender install-addon\",\n  \"after_install\": \"If the addon file was updated: in Blender, Preferences \\u2192 Add-ons \\u2192 disable/enable 'Interface: Blender MCP', or restart Blender, then Start MCP Server.\"\n}",
+  "build_roundtrip_seconds": 1.979028499990818,
+  "render_roundtrip_seconds": 4.937318199998117,
+  "read_roundtrip_ms": [
+    500.10699999984354,
+    137.4054000043543,
+    102.94130000693258,
+    95.65650000877213,
+    79.09949999884702,
+    99.2716000037035,
+    135.12860001355875,
+    66.78890000330284,
+    82.3895000066841,
+    66.30699998640921,
+    65.75769999471959,
+    64.6063000021968,
+    60.48220000229776,
+    72.50139999086969,
+    60.611799999605864,
+    50.546300000860356,
+    56.73719999322202,
+    47.43409999355208,
+    48.48369999672286,
+    53.24829999881331
+  ],
+  "read_median_ms": 66.54794999485603
+}

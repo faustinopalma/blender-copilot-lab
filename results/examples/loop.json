@@ -1,0 +1,150 @@
+{
+  "prompt": "Partendo dalla scena originale, esegui tre cicli osserva-correggi-verifica per inquadrare il gatto-polpo: parti con scala ortografica 9, misura l'ingombro proiettato del personaggio, punta a occupare il 78% dell'immagine (tolleranza 2 punti percentuali), renderizza e osserva ogni preview 512x512. Salva solo copie e ripristina la scena originale.",
+  "start_utc": "2026-10-16T13:50:57.4615529Z",
+  "end_utc": "2026-10-16T13:54:57.9211056Z",
+  "elapsed_seconds": 240.4595527,
+  "timing_source": "Host .NET UTC clock; no Blender-side timestamps",
+  "timing_scope": "Full example includes source creation, exactly three serial execute/render/look cycles, restoration and integrity verification. Iteration windows include execution, preview inspection, visual assessment and host orchestration; no isolated renderer timing claimed.",
+  "original_file": "output\\coding-cat.blend",
+  "target_fill_fraction": 0.78,
+  "tolerance_fraction": 0.02,
+  "metric": "Camera-space bound_box corners of visible non-hide_render MESH/CURVE/FONT objects; fill=max(width,height)/ortho_scale; normalized x,y bounds=coordinate/scale+0.5",
+  "metric_character_object_count": 51,
+  "excluded_names": [
+    "Studio floor",
+    "Display plinth",
+    "Status ring",
+    "Plinth label"
+  ],
+  "excluded_prefix": "Floating bit",
+  "correction": "When abs(previous_fill-0.78)>0.02: scale=previous_scale*previous_fill/0.78; otherwise preserve live scale",
+  "iterations": [
+    {
+      "iteration": 1,
+      "ortho_scale": 9.0,
+      "fill_fraction": 0.6063146591186523,
+      "normalized_bounds": {
+        "min_x": 0.24611878395080566,
+        "max_x": 0.7538814544677734,
+        "min_y": 0.2017592324150933,
+        "max_y": 0.8080738915337456
+      },
+      "tolerance_pass": false,
+      "silhouette_not_clipped": true,
+      "start_utc": "2026-10-16T13:51:44.0988402Z",
+      "end_utc": "2026-10-16T13:52:21.1605874Z",
+      "elapsed_seconds": 37.0617472,
+      "visually_inspected": true,
+      "visual_assessment": "Preview 512x512 inspected: ears and tentacles visible with generous margins; character undersized, framing should tighten.",
+      "preview": "output\\examples\\loop-01.png",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "F968D5EA8BB2F2374349714816C0082656453D98D4E2930DA8749E28265ABF18",
+      "source": "scripts\\example_loop_01.py"
+    },
+    {
+      "iteration": 2,
+      "previous_ortho_scale": 9.0,
+      "previous_fill_fraction": 0.6063146591186523,
+      "ortho_scale": 6.995938301086426,
+      "fill_fraction": 0.7800000081790971,
+      "normalized_bounds": {
+        "min_x": 0.1733917816159251,
+        "max_x": 0.8266085251002178,
+        "min_y": 0.1163249598917524,
+        "max_y": 0.8963249680708496
+      },
+      "tolerance_pass": true,
+      "silhouette_not_clipped": true,
+      "start_utc": "2026-10-16T13:52:21.1689457Z",
+      "end_utc": "2026-10-16T13:52:59.3845062Z",
+      "elapsed_seconds": 38.2155605,
+      "visually_inspected": true,
+      "visual_assessment": "Preview 512x512 inspected: tighter composition, both ears and all visible tentacles intact, facial details readable, plinth near bottom but not clipped; target reached, preserve scale.",
+      "preview": "output\\examples\\loop-02.png",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "56BE223E10D15C2D5B195D6C0043234EEC444520088B755C012063E8C23466A6",
+      "source": "scripts\\example_loop_02.py"
+    },
+    {
+      "iteration": 3,
+      "previous_ortho_scale": 6.995938301086426,
+      "previous_fill_fraction": 0.7800000081790971,
+      "ortho_scale": 6.995938301086426,
+      "fill_fraction": 0.7800000081790971,
+      "normalized_bounds": {
+        "min_x": 0.1733917816159251,
+        "max_x": 0.8266085251002178,
+        "min_y": 0.1163249598917524,
+        "max_y": 0.8963249680708496
+      },
+      "tolerance_pass": true,
+      "silhouette_not_clipped": true,
+      "start_utc": "2026-10-16T13:52:59.3930738Z",
+      "end_utc": "2026-10-16T13:53:48.8245226Z",
+      "elapsed_seconds": 49.4314488,
+      "visually_inspected": true,
+      "visual_assessment": "Third 512x512 preview inspected: stable tight composition with ears and tentacles intact; decoded RGBA comparison confirms all 262144 pixels identical to the inspected second preview.",
+      "preview": "output\\examples\\loop-03.png",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "078C7793B1B569E85158E3BE33C6DE1B52D54651D128F6A5E5ABEE5BDCE330EC",
+      "source": "scripts\\example_loop_03.py"
+    }
+  ],
+  "chosen_iteration": 3,
+  "converged": true,
+  "first_converged_iteration": 2,
+  "preview_02_vs_03_different_pixels": 0,
+  "final_copy": "output\\examples\\loop-framing.blend",
+  "restore_assertion": {
+    "assertion_pass": true,
+    "reopened_with_use_scripts_false": true,
+    "original_camera": "Portrait camera",
+    "original_ortho_scale": 7.5,
+    "restored_ortho_scale": 7.5,
+    "expected_object_count": 62,
+    "restored_object_count": 62,
+    "original_resolution": [
+      1200,
+      1200,
+      100
+    ],
+    "restored_resolution": [
+      1200,
+      1200,
+      100
+    ],
+    "original_sha256_before": "15896DB4CEB717C6360A26604571F41A6C7E9515B3D95026C9942D7A2B32D4A6",
+    "original_sha256_after": "15896DB4CEB717C6360A26604571F41A6C7E9515B3D95026C9942D7A2B32D4A6",
+    "original_length_before": 389743,
+    "original_length_after": 389743,
+    "original_last_write_utc_before": "2026-10-16T13:31:51.7306261Z",
+    "original_last_write_utc_after": "2026-10-16T13:31:51.7306261Z",
+    "original_file_unchanged": true
+  },
+  "modified_scene_properties": [
+    "camera.data.ortho_scale",
+    "render.resolution_x",
+    "render.resolution_y",
+    "render.resolution_percentage",
+    "render.filepath"
+  ],
+  "preserved": [
+    "geometry",
+    "materials",
+    "lights",
+    "animation",
+    "camera transform"
+  ],
+  "native_blender_mcp_calls": 8,
+  "tool_discovery": "tool_search unavailable in this subagent tool surface; directly exposed native blender-local MCP tools used; get_addon_status confirmed source=native",
+  "extra_renders": 0
+}

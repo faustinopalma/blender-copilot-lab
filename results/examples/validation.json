@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "original_files_unchanged": true,
+    "purple_only_requested_material_changed": true,
+    "purple_geometry_unchanged": true,
+    "loop_target_78_percent_reached": true,
+    "loop_character_bounds_not_clipped": true,
+    "loop_geometry_and_materials_unchanged": true,
+    "four_nonblank_512px_images": true,
+    "loop_final_verification_pixel_identical": true,
+    "loop_first_to_second_image_actually_changed": true
+  },
+  "fill_fraction": 0.7800000081790971,
+  "normalized_character_bounds": [
+    0.1733917816159251,
+    0.8266085251002178,
+    0.1163249598917524,
+    0.8963249680708496
+  ],
+  "final_ortho_scale": 6.995938301086426,
+  "files": {
+    "loop-01.png": {
+      "bytes": 322731,
+      "sha256": "f968d5ea8bb2f2374349714816c0082656453d98d4e2930da8749e28265abf18"
+    },
+    "loop-02.png": {
+      "bytes": 346344,
+      "sha256": "56be223e10d15c2d5b195d6c0043234eec444520088b755c012063e8c23466a6"
+    },
+    "loop-03.png": {
+      "bytes": 346344,
+      "sha256": "078c7793b1b569e85158e3be33c6de1b52d54651d128f6a5e5abee5bdce330ec"
+    },
+    "loop-framing.blend": {
+      "bytes": 390525,
+      "sha256": "cb5297d7d0c84dcce53b65bee68dc5a71a80348465891df0e37cec81f503a556"
+    },
+    "purple.blend": {
+      "bytes": 360826,
+      "sha256": "44f1c4bc2046eaa400c41dc992a368fd0898009f12a9877376ef2de8b490a43d"
+    },
+    "purple.png": {
+      "bytes": 339803,
+      "sha256": "43d2edd1110001904e53d18059c4307e91073b9c6ed5256ec85df50f2e301b62"
+    }
+  }
+}

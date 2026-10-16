@@ -1,0 +1,1872 @@
+{
+  "captured_at_utc": "2026-10-16T17:09:02.985326+00:00",
+  "scope": "Ten fresh sequential child agents only. Parent coordination, web viewer, exports and validation excluded.",
+  "conversion": {
+    "nano_aiu_per_ai_credit": 1000000000,
+    "usd_per_ai_credit": 0.01
+  },
+  "deduplication": "sourceSessionId + accounting.usageId; no checkpoint totals added",
+  "checks": {
+    "ten_unique_child_contexts": true,
+    "no_overlapping_child_windows": true,
+    "token_partitions_and_child_totals_reconciled": true,
+    "billing_recomputed_from_runtime_token_rates": true,
+    "one_shared_helper_hash": true
+  },
+  "initial_context": {
+    "min_tokens": 80528,
+    "max_tokens": 80601,
+    "spread_tokens": 73,
+    "spread_fraction_of_median": 0.0009061512776112363,
+    "successive_deltas": [
+      -3,
+      1,
+      -1,
+      4,
+      57,
+      4,
+      8,
+      -7,
+      0
+    ]
+  },
+  "totals": {
+    "api_calls": 113,
+    "input_tokens": 10064792,
+    "output_tokens": 68129,
+    "cache_read_tokens": 9835077,
+    "cache_write_tokens": 229376,
+    "reasoning_tokens": 18883,
+    "ai_credits": 223.89157,
+    "usd_equivalent": 2.2389157,
+    "subagent_seconds": 4771.861,
+    "runner_all_attempts_seconds": 3078.3584877000394,
+    "model_seconds": 1488.111,
+    "attempts": 20,
+    "failed_attempts": 0,
+    "objects": 2015,
+    "elapsed_creation_window_seconds": 4940.1
+  },
+  "coordinator_snapshot": {
+    "scope": "Non-child accounting since the first gallery agent started; snapshot only, excludes later work and earlier setup.",
+    "api_calls": 55,
+    "input_tokens": 4532080,
+    "output_tokens": 37790,
+    "ai_credits": 116.84367
+  },
+  "subjects": [
+    {
+      "slug": "01-fabric-data-city",
+      "title": "Fabric - Data City",
+      "models": {
+        "gpt-6.1-sol": 11
+      },
+      "api_calls": 11,
+      "input_tokens": 983537,
+      "output_tokens": 6835,
+      "cache_read_tokens": 889749,
+      "cache_write_tokens": 93755,
+      "ai_credits": 39.17784,
+      "usd_equivalent": 0.3917784,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80531,
+      "last_input_tokens": 93758,
+      "min_input_tokens": 80531,
+      "max_input_tokens": 93758,
+      "model_seconds": 143.04,
+      "reasoning_tokens": 1565,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80531,
+          "output_tokens": 226,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 80528,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.278,
+          "reported_nano_aiu": 20358600000,
+          "recomputed_nano_aiu": 20358600000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82081,
+          "output_tokens": 375,
+          "cache_read_tokens": 80528,
+          "cache_write_tokens": 1550,
+          "reasoning_tokens": 55,
+          "model_seconds": 8.676,
+          "reported_nano_aiu": 1568380000,
+          "recomputed_nano_aiu": 1568380000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85656,
+          "output_tokens": 4507,
+          "cache_read_tokens": 82078,
+          "cache_write_tokens": 3575,
+          "reasoning_tokens": 516,
+          "model_seconds": 70.288,
+          "reported_nano_aiu": 6222130000,
+          "recomputed_nano_aiu": 6222130000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90198,
+          "output_tokens": 282,
+          "cache_read_tokens": 85653,
+          "cache_write_tokens": 4542,
+          "reasoning_tokens": 233,
+          "model_seconds": 8.017,
+          "reported_nano_aiu": 2274630000,
+          "recomputed_nano_aiu": 2274630000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90680,
+          "output_tokens": 28,
+          "cache_read_tokens": 90195,
+          "cache_write_tokens": 482,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.22,
+          "reported_nano_aiu": 1051050000,
+          "recomputed_nano_aiu": 1051050000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90901,
+          "output_tokens": 69,
+          "cache_read_tokens": 90677,
+          "cache_write_tokens": 221,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.634,
+          "reported_nano_aiu": 1031620000,
+          "recomputed_nano_aiu": 1031620000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91157,
+          "output_tokens": 35,
+          "cache_read_tokens": 90898,
+          "cache_write_tokens": 256,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.943,
+          "reported_nano_aiu": 1008580000,
+          "recomputed_nano_aiu": 1008580000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92036,
+          "output_tokens": 1071,
+          "cache_read_tokens": 91154,
+          "cache_write_tokens": 879,
+          "reasoning_tokens": 761,
+          "model_seconds": 25.125,
+          "reported_nano_aiu": 2202890000,
+          "recomputed_nano_aiu": 2202890000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93142,
+          "output_tokens": 68,
+          "cache_read_tokens": 92033,
+          "cache_write_tokens": 1106,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.488,
+          "reported_nano_aiu": 1265430000,
+          "recomputed_nano_aiu": 1265430000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93397,
+          "output_tokens": 35,
+          "cache_read_tokens": 93139,
+          "cache_write_tokens": 255,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.873,
+          "reported_nano_aiu": 1030740000,
+          "recomputed_nano_aiu": 1030740000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93758,
+          "output_tokens": 139,
+          "cache_read_tokens": 93394,
+          "cache_write_tokens": 361,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.498,
+          "reported_nano_aiu": 1163790000,
+          "recomputed_nano_aiu": 1163790000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 277.755,
+      "subagent_tool_calls": 14,
+      "started_at_utc": "2026-10-16T15:37:14.537Z",
+      "ended_at_utc": "2026-10-16T15:41:52.847Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 204,
+      "runner_all_attempts_seconds": 124.73964299999352,
+      "runner_final_seconds": 69.37624099999084,
+      "all_attempts_phases_seconds": {
+        "initialize": 3.0301756000117166,
+        "build": 29.33621750000748,
+        "preview_render": 37.39919139999256,
+        "final_render": 40.397458699997514,
+        "save": 14.293982500006678
+      },
+      "final_phases_seconds": {
+        "initialize": 1.5162344999989728,
+        "build": 17.07007909999811,
+        "preview_render": 21.241326499992283,
+        "final_render": 21.61857869999949,
+        "save": 7.767141600008472
+      },
+      "cache_read_fraction_of_input": 0.9046421232754843,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "02-onelake",
+      "title": "OneLake - Shared Data",
+      "models": {
+        "gpt-6.1-sol": 12
+      },
+      "api_calls": 12,
+      "input_tokens": 1062907,
+      "output_tokens": 7002,
+      "cache_read_tokens": 1048584,
+      "cache_write_tokens": 14287,
+      "ai_credits": 21.06679,
+      "usd_equivalent": 0.2106679,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80528,
+      "last_input_tokens": 94242,
+      "min_input_tokens": 80528,
+      "max_input_tokens": 94242,
+      "model_seconds": 162.751,
+      "reasoning_tokens": 1964,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80528,
+          "output_tokens": 253,
+          "cache_read_tokens": 79952,
+          "cache_write_tokens": 573,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.698,
+          "reported_nano_aiu": 1196370000,
+          "recomputed_nano_aiu": 1196370000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82243,
+          "output_tokens": 37,
+          "cache_read_tokens": 80525,
+          "cache_write_tokens": 1715,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.696,
+          "reported_nano_aiu": 1271600000,
+          "recomputed_nano_aiu": 1271600000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 84833,
+          "output_tokens": 37,
+          "cache_read_tokens": 82240,
+          "cache_write_tokens": 2590,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.807,
+          "reported_nano_aiu": 1507500000,
+          "recomputed_nano_aiu": 1507500000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 84995,
+          "output_tokens": 55,
+          "cache_read_tokens": 84830,
+          "cache_write_tokens": 162,
+          "reasoning_tokens": 16,
+          "model_seconds": 4.598,
+          "reported_nano_aiu": 944400000,
+          "recomputed_nano_aiu": 944400000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85581,
+          "output_tokens": 4678,
+          "cache_read_tokens": 84992,
+          "cache_write_tokens": 586,
+          "reasoning_tokens": 848,
+          "model_seconds": 80.25,
+          "reported_nano_aiu": 5675020000,
+          "recomputed_nano_aiu": 5675020000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90293,
+          "output_tokens": 283,
+          "cache_read_tokens": 85578,
+          "cache_write_tokens": 4712,
+          "reasoning_tokens": 234,
+          "model_seconds": 10.692,
+          "reported_nano_aiu": 2317380000,
+          "recomputed_nano_aiu": 2317380000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90776,
+          "output_tokens": 72,
+          "cache_read_tokens": 90290,
+          "cache_write_tokens": 483,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.259,
+          "reported_nano_aiu": 1096250000,
+          "recomputed_nano_aiu": 1096250000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91033,
+          "output_tokens": 34,
+          "cache_read_tokens": 90773,
+          "cache_write_tokens": 257,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.251,
+          "reported_nano_aiu": 1006580000,
+          "recomputed_nano_aiu": 1006580000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91911,
+          "output_tokens": 1163,
+          "cache_read_tokens": 91030,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 729,
+          "model_seconds": 26.006,
+          "reported_nano_aiu": 2293400000,
+          "recomputed_nano_aiu": 2293400000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93108,
+          "output_tokens": 71,
+          "cache_read_tokens": 91908,
+          "cache_write_tokens": 1197,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.887,
+          "reported_nano_aiu": 1289930000,
+          "recomputed_nano_aiu": 1289930000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93364,
+          "output_tokens": 34,
+          "cache_read_tokens": 93105,
+          "cache_write_tokens": 256,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.853,
+          "reported_nano_aiu": 1029650000,
+          "recomputed_nano_aiu": 1029650000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 94242,
+          "output_tokens": 285,
+          "cache_read_tokens": 93361,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 137,
+          "model_seconds": 9.754,
+          "reported_nano_aiu": 1438710000,
+          "recomputed_nano_aiu": 1438710000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 380.4,
+      "subagent_tool_calls": 13,
+      "started_at_utc": "2026-10-16T15:42:11.967Z",
+      "ended_at_utc": "2026-10-16T15:48:33.143Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 186,
+      "runner_all_attempts_seconds": 186.29190010001184,
+      "runner_final_seconds": 103.07650870000361,
+      "all_attempts_phases_seconds": {
+        "initialize": 3.4584800000156974,
+        "build": 35.09268750001502,
+        "preview_render": 59.28114769999229,
+        "final_render": 67.44370199998957,
+        "save": 20.53417410000111
+      },
+      "final_phases_seconds": {
+        "initialize": 1.8253622000047471,
+        "build": 19.81040880001092,
+        "preview_render": 33.75281579999137,
+        "final_render": 36.569171299997834,
+        "save": 10.886134100001073
+      },
+      "cache_read_fraction_of_input": 0.986524691247682,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "03-medallion",
+      "title": "Fabric - Medallion Architecture",
+      "models": {
+        "gpt-6.1-sol": 10
+      },
+      "api_calls": 10,
+      "input_tokens": 878402,
+      "output_tokens": 5522,
+      "cache_read_tokens": 866559,
+      "cache_write_tokens": 11813,
+      "ai_credits": 17.14684,
+      "usd_equivalent": 0.1714684,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80529,
+      "last_input_tokens": 91768,
+      "min_input_tokens": 80529,
+      "max_input_tokens": 91768,
+      "model_seconds": 127.137,
+      "reasoning_tokens": 1593,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80529,
+          "output_tokens": 249,
+          "cache_read_tokens": 79952,
+          "cache_write_tokens": 574,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.641,
+          "reported_nano_aiu": 1192620000,
+          "recomputed_nano_aiu": 1192620000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82236,
+          "output_tokens": 37,
+          "cache_read_tokens": 80526,
+          "cache_write_tokens": 1707,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.171,
+          "reported_nano_aiu": 1269610000,
+          "recomputed_nano_aiu": 1269610000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 84826,
+          "output_tokens": 37,
+          "cache_read_tokens": 82233,
+          "cache_write_tokens": 2590,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.238,
+          "reported_nano_aiu": 1507430000,
+          "recomputed_nano_aiu": 1507430000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85385,
+          "output_tokens": 4294,
+          "cache_read_tokens": 84823,
+          "cache_write_tokens": 559,
+          "reasoning_tokens": 1290,
+          "model_seconds": 77.133,
+          "reported_nano_aiu": 5282580000,
+          "recomputed_nano_aiu": 5282580000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89713,
+          "output_tokens": 71,
+          "cache_read_tokens": 85382,
+          "cache_write_tokens": 4328,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.929,
+          "reported_nano_aiu": 2007420000,
+          "recomputed_nano_aiu": 2007420000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89969,
+          "output_tokens": 34,
+          "cache_read_tokens": 89710,
+          "cache_write_tokens": 256,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.37,
+          "reported_nano_aiu": 995700000,
+          "recomputed_nano_aiu": 995700000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90847,
+          "output_tokens": 557,
+          "cache_read_tokens": 89966,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 303,
+          "model_seconds": 14.109,
+          "reported_nano_aiu": 1676760000,
+          "recomputed_nano_aiu": 1676760000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91438,
+          "output_tokens": 68,
+          "cache_read_tokens": 90844,
+          "cache_write_tokens": 591,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.32,
+          "reported_nano_aiu": 1124790000,
+          "recomputed_nano_aiu": 1124790000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91691,
+          "output_tokens": 34,
+          "cache_read_tokens": 91435,
+          "cache_write_tokens": 253,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.928,
+          "reported_nano_aiu": 1012200000,
+          "recomputed_nano_aiu": 1012200000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91768,
+          "output_tokens": 141,
+          "cache_read_tokens": 91688,
+          "cache_write_tokens": 77,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.298,
+          "reported_nano_aiu": 1077730000,
+          "recomputed_nano_aiu": 1077730000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 454.817,
+      "subagent_tool_calls": 11,
+      "started_at_utc": "2026-10-16T15:48:55.470Z",
+      "ended_at_utc": "2026-10-16T15:56:30.813Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 194,
+      "runner_all_attempts_seconds": 317.6750367000059,
+      "runner_final_seconds": 172.98417720000725,
+      "all_attempts_phases_seconds": {
+        "initialize": 2.852678700000979,
+        "build": 65.19172619999154,
+        "preview_render": 100.16263299999991,
+        "final_render": 116.52178569999523,
+        "save": 32.59938600001624
+      },
+      "final_phases_seconds": {
+        "initialize": 1.3431266999978106,
+        "build": 38.35109029999876,
+        "preview_render": 56.737761900003534,
+        "final_render": 59.4013730000006,
+        "save": 16.971594900009222
+      },
+      "cache_read_fraction_of_input": 0.9865175625738557,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "04-data-factory",
+      "title": "Data Factory - Flow Works",
+      "models": {
+        "gpt-6.1-sol": 11
+      },
+      "api_calls": 11,
+      "input_tokens": 976345,
+      "output_tokens": 6838,
+      "cache_read_tokens": 962486,
+      "cache_write_tokens": 13826,
+      "ai_credits": 19.92596,
+      "usd_equivalent": 0.1992596,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80528,
+      "last_input_tokens": 93781,
+      "min_input_tokens": 80528,
+      "max_input_tokens": 93781,
+      "model_seconds": 142.87300000000002,
+      "reasoning_tokens": 1654,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80528,
+          "output_tokens": 275,
+          "cache_read_tokens": 79952,
+          "cache_write_tokens": 573,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.882,
+          "reported_nano_aiu": 1218370000,
+          "recomputed_nano_aiu": 1218370000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82290,
+          "output_tokens": 47,
+          "cache_read_tokens": 80525,
+          "cache_write_tokens": 1762,
+          "reasoning_tokens": 8,
+          "model_seconds": 4.237,
+          "reported_nano_aiu": 1293350000,
+          "recomputed_nano_aiu": 1293350000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 84890,
+          "output_tokens": 37,
+          "cache_read_tokens": 82287,
+          "cache_write_tokens": 2600,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.057,
+          "reported_nano_aiu": 1510470000,
+          "recomputed_nano_aiu": 1510470000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85262,
+          "output_tokens": 4611,
+          "cache_read_tokens": 84887,
+          "cache_write_tokens": 372,
+          "reasoning_tokens": 847,
+          "model_seconds": 74.412,
+          "reported_nano_aiu": 5553470000,
+          "recomputed_nano_aiu": 5553470000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89907,
+          "output_tokens": 233,
+          "cache_read_tokens": 85259,
+          "cache_write_tokens": 4645,
+          "reasoning_tokens": 161,
+          "model_seconds": 7.83,
+          "reported_nano_aiu": 2247440000,
+          "recomputed_nano_aiu": 2247440000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90324,
+          "output_tokens": 34,
+          "cache_read_tokens": 89904,
+          "cache_write_tokens": 417,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.134,
+          "reported_nano_aiu": 1037890000,
+          "recomputed_nano_aiu": 1037890000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91202,
+          "output_tokens": 1330,
+          "cache_read_tokens": 90321,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 638,
+          "model_seconds": 26.323,
+          "reported_nano_aiu": 2453310000,
+          "recomputed_nano_aiu": 2453310000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92566,
+          "output_tokens": 68,
+          "cache_read_tokens": 91199,
+          "cache_write_tokens": 1364,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.082,
+          "reported_nano_aiu": 1321590000,
+          "recomputed_nano_aiu": 1321590000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92692,
+          "output_tokens": 25,
+          "cache_read_tokens": 92563,
+          "cache_write_tokens": 126,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.283,
+          "reported_nano_aiu": 982730000,
+          "recomputed_nano_aiu": 982730000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92903,
+          "output_tokens": 34,
+          "cache_read_tokens": 92689,
+          "cache_write_tokens": 211,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.689,
+          "reported_nano_aiu": 1014240000,
+          "recomputed_nano_aiu": 1014240000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93781,
+          "output_tokens": 144,
+          "cache_read_tokens": 92900,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.944,
+          "reported_nano_aiu": 1293100000,
+          "recomputed_nano_aiu": 1293100000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 511.62,
+      "subagent_tool_calls": 12,
+      "started_at_utc": "2026-10-16T15:56:57.480Z",
+      "ended_at_utc": "2026-10-16T16:05:29.083Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 205,
+      "runner_all_attempts_seconds": 359.2280439000024,
+      "runner_final_seconds": 186.23306779999984,
+      "all_attempts_phases_seconds": {
+        "initialize": 2.8052216000069166,
+        "build": 81.58050789999834,
+        "preview_render": 114.18533179999213,
+        "final_render": 125.21428829999059,
+        "save": 35.09214290000091
+      },
+      "final_phases_seconds": {
+        "initialize": 1.3892638999968767,
+        "build": 44.173341400004574,
+        "preview_render": 58.3930965999898,
+        "final_render": 64.18069320000359,
+        "save": 17.91306930000428
+      },
+      "cache_read_fraction_of_input": 0.9858052225391639,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "05-foundry-forge",
+      "title": "Foundry - Agent Forge",
+      "models": {
+        "gpt-6.1-sol": 13
+      },
+      "api_calls": 13,
+      "input_tokens": 1158953,
+      "output_tokens": 6442,
+      "cache_read_tokens": 1144911,
+      "cache_write_tokens": 14003,
+      "ai_credits": 21.39966,
+      "usd_equivalent": 0.2139966,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80532,
+      "last_input_tokens": 93958,
+      "min_input_tokens": 80532,
+      "max_input_tokens": 93958,
+      "model_seconds": 145.912,
+      "reasoning_tokens": 1363,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80532,
+          "output_tokens": 146,
+          "cache_read_tokens": 79952,
+          "cache_write_tokens": 577,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.611,
+          "reported_nano_aiu": 1090370000,
+          "recomputed_nano_aiu": 1090370000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82002,
+          "output_tokens": 277,
+          "cache_read_tokens": 80529,
+          "cache_write_tokens": 1470,
+          "reasoning_tokens": 24,
+          "model_seconds": 6.721,
+          "reported_nano_aiu": 1450390000,
+          "recomputed_nano_aiu": 1450390000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85337,
+          "output_tokens": 295,
+          "cache_read_tokens": 81999,
+          "cache_write_tokens": 3335,
+          "reasoning_tokens": 73,
+          "model_seconds": 7.184,
+          "reported_nano_aiu": 1949340000,
+          "recomputed_nano_aiu": 1949340000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85788,
+          "output_tokens": 4385,
+          "cache_read_tokens": 85334,
+          "cache_write_tokens": 451,
+          "reasoning_tokens": 516,
+          "model_seconds": 71.707,
+          "reported_nano_aiu": 5351690000,
+          "recomputed_nano_aiu": 5351690000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90208,
+          "output_tokens": 118,
+          "cache_read_tokens": 85785,
+          "cache_write_tokens": 4420,
+          "reasoning_tokens": 69,
+          "model_seconds": 5.323,
+          "reported_nano_aiu": 2081450000,
+          "recomputed_nano_aiu": 2081450000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90526,
+          "output_tokens": 28,
+          "cache_read_tokens": 90205,
+          "cache_write_tokens": 318,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.466,
+          "reported_nano_aiu": 1010150000,
+          "recomputed_nano_aiu": 1010150000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90747,
+          "output_tokens": 71,
+          "cache_read_tokens": 90523,
+          "cache_write_tokens": 221,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.346,
+          "reported_nano_aiu": 1032080000,
+          "recomputed_nano_aiu": 1032080000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90876,
+          "output_tokens": 36,
+          "cache_read_tokens": 90744,
+          "cache_write_tokens": 129,
+          "reasoning_tokens": 9,
+          "model_seconds": 3.55,
+          "reported_nano_aiu": 976290000,
+          "recomputed_nano_aiu": 976290000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91100,
+          "output_tokens": 35,
+          "cache_read_tokens": 90873,
+          "cache_write_tokens": 224,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.737,
+          "reported_nano_aiu": 1000330000,
+          "recomputed_nano_aiu": 1000330000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91979,
+          "output_tokens": 807,
+          "cache_read_tokens": 91097,
+          "cache_write_tokens": 879,
+          "reasoning_tokens": 672,
+          "model_seconds": 18.803,
+          "reported_nano_aiu": 1938320000,
+          "recomputed_nano_aiu": 1938320000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92821,
+          "output_tokens": 71,
+          "cache_read_tokens": 91976,
+          "cache_write_tokens": 842,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.681,
+          "reported_nano_aiu": 1201860000,
+          "recomputed_nano_aiu": 1201860000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93079,
+          "output_tokens": 35,
+          "cache_read_tokens": 92818,
+          "cache_write_tokens": 258,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.667,
+          "reported_nano_aiu": 1028280000,
+          "recomputed_nano_aiu": 1028280000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93958,
+          "output_tokens": 138,
+          "cache_read_tokens": 93076,
+          "cache_write_tokens": 879,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.116,
+          "reported_nano_aiu": 1289110000,
+          "recomputed_nano_aiu": 1289110000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 537.715,
+      "subagent_tool_calls": 16,
+      "started_at_utc": "2026-10-16T16:05:46.877Z",
+      "ended_at_utc": "2026-10-16T16:14:45.882Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 201,
+      "runner_all_attempts_seconds": 347.1667232999898,
+      "runner_final_seconds": 166.9635763999977,
+      "all_attempts_phases_seconds": {
+        "initialize": 3.3173588999925414,
+        "build": 77.27193249999254,
+        "preview_render": 111.01763700001175,
+        "final_render": 118.32564139999158,
+        "save": 36.831546999994316
+      },
+      "final_phases_seconds": {
+        "initialize": 1.5586305000033462,
+        "build": 37.64767189999111,
+        "preview_render": 57.38877340000181,
+        "final_render": 52.12443019999773,
+        "save": 18.059635400000843
+      },
+      "cache_read_fraction_of_input": 0.9878838917540228,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "06-agent-team",
+      "title": "Foundry - Agent Team",
+      "models": {
+        "gpt-6.1-sol": 10
+      },
+      "api_calls": 10,
+      "input_tokens": 895239,
+      "output_tokens": 7970,
+      "cache_read_tokens": 869635,
+      "cache_write_tokens": 25574,
+      "ai_credits": 23.06585,
+      "usd_equivalent": 0.2306585,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80589,
+      "last_input_tokens": 95282,
+      "min_input_tokens": 80589,
+      "max_input_tokens": 95282,
+      "model_seconds": 157.781,
+      "reasoning_tokens": 2231,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80589,
+          "output_tokens": 233,
+          "cache_read_tokens": 69705,
+          "cache_write_tokens": 10881,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.236,
+          "reported_nano_aiu": 3650900000,
+          "recomputed_nano_aiu": 3650900000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82177,
+          "output_tokens": 379,
+          "cache_read_tokens": 80586,
+          "cache_write_tokens": 1588,
+          "reasoning_tokens": 95,
+          "model_seconds": 8.281,
+          "reported_nano_aiu": 1582460000,
+          "recomputed_nano_aiu": 1582460000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85745,
+          "output_tokens": 1083,
+          "cache_read_tokens": 82174,
+          "cache_write_tokens": 3568,
+          "reasoning_tokens": 1034,
+          "model_seconds": 27.83,
+          "reported_nano_aiu": 2797340000,
+          "recomputed_nano_aiu": 2797340000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 87028,
+          "output_tokens": 4214,
+          "cache_read_tokens": 85742,
+          "cache_write_tokens": 1283,
+          "reasoning_tokens": 0,
+          "model_seconds": 61.872,
+          "reported_nano_aiu": 5392770000,
+          "recomputed_nano_aiu": 5392770000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91275,
+          "output_tokens": 395,
+          "cache_read_tokens": 87025,
+          "cache_write_tokens": 4247,
+          "reasoning_tokens": 326,
+          "model_seconds": 10.364,
+          "reported_nano_aiu": 2327600000,
+          "recomputed_nano_aiu": 2327600000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91853,
+          "output_tokens": 33,
+          "cache_read_tokens": 91272,
+          "cache_write_tokens": 578,
+          "reasoning_tokens": 0,
+          "model_seconds": 2.859,
+          "reported_nano_aiu": 1090820000,
+          "recomputed_nano_aiu": 1090820000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92730,
+          "output_tokens": 1392,
+          "cache_read_tokens": 91850,
+          "cache_write_tokens": 877,
+          "reasoning_tokens": 776,
+          "model_seconds": 27.628,
+          "reported_nano_aiu": 2530350000,
+          "recomputed_nano_aiu": 2530350000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 94155,
+          "output_tokens": 67,
+          "cache_read_tokens": 92727,
+          "cache_write_tokens": 1425,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.584,
+          "reported_nano_aiu": 1351120000,
+          "recomputed_nano_aiu": 1351120000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 94405,
+          "output_tokens": 33,
+          "cache_read_tokens": 94152,
+          "cache_write_tokens": 250,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.247,
+          "reported_nano_aiu": 1037620000,
+          "recomputed_nano_aiu": 1037620000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 95282,
+          "output_tokens": 141,
+          "cache_read_tokens": 94402,
+          "cache_write_tokens": 877,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.88,
+          "reported_nano_aiu": 1304870000,
+          "recomputed_nano_aiu": 1304870000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 478.115,
+      "subagent_tool_calls": 13,
+      "started_at_utc": "2026-10-16T16:15:01.816Z",
+      "ended_at_utc": "2026-10-16T16:23:00.857Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 185,
+      "runner_all_attempts_seconds": 305.81914570000663,
+      "runner_final_seconds": 147.7545828000002,
+      "all_attempts_phases_seconds": {
+        "initialize": 3.560971100014285,
+        "build": 62.98933289998968,
+        "preview_render": 102.55230159999337,
+        "final_render": 103.05128010000044,
+        "save": 33.21290530000988
+      },
+      "final_phases_seconds": {
+        "initialize": 2.0028958000038983,
+        "build": 32.485914899996715,
+        "preview_render": 48.63995409999916,
+        "final_render": 48.95636179999565,
+        "save": 15.412763500004075
+      },
+      "cache_read_fraction_of_input": 0.9713998161384837,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "07-rag-library",
+      "title": "Foundry - Knowledge Library",
+      "models": {
+        "gpt-6.1-sol": 13
+      },
+      "api_calls": 13,
+      "input_tokens": 1148974,
+      "output_tokens": 5680,
+      "cache_read_tokens": 1136011,
+      "cache_write_tokens": 12924,
+      "ai_credits": 20.27891,
+      "usd_equivalent": 0.2027891,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80593,
+      "last_input_tokens": 92944,
+      "min_input_tokens": 80593,
+      "max_input_tokens": 92944,
+      "model_seconds": 134.159,
+      "reasoning_tokens": 1348,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80593,
+          "output_tokens": 254,
+          "cache_read_tokens": 80017,
+          "cache_write_tokens": 573,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.776,
+          "reported_nano_aiu": 1198020000,
+          "recomputed_nano_aiu": 1198020000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82316,
+          "output_tokens": 72,
+          "cache_read_tokens": 80590,
+          "cache_write_tokens": 1723,
+          "reasoning_tokens": 33,
+          "model_seconds": 4.961,
+          "reported_nano_aiu": 1309250000,
+          "recomputed_nano_aiu": 1309250000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 84941,
+          "output_tokens": 37,
+          "cache_read_tokens": 82313,
+          "cache_write_tokens": 2625,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.011,
+          "reported_nano_aiu": 1516980000,
+          "recomputed_nano_aiu": 1516980000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85196,
+          "output_tokens": 3671,
+          "cache_read_tokens": 84938,
+          "cache_write_tokens": 255,
+          "reasoning_tokens": 516,
+          "model_seconds": 57.443,
+          "reported_nano_aiu": 4584730000,
+          "recomputed_nano_aiu": 4584730000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 88901,
+          "output_tokens": 424,
+          "cache_read_tokens": 85193,
+          "cache_write_tokens": 3705,
+          "reasoning_tokens": 375,
+          "model_seconds": 11.189,
+          "reported_nano_aiu": 2202780000,
+          "recomputed_nano_aiu": 2202780000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89525,
+          "output_tokens": 28,
+          "cache_read_tokens": 88898,
+          "cache_write_tokens": 624,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.852,
+          "reported_nano_aiu": 1073580000,
+          "recomputed_nano_aiu": 1073580000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89746,
+          "output_tokens": 69,
+          "cache_read_tokens": 89522,
+          "cache_write_tokens": 221,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.67,
+          "reported_nano_aiu": 1020070000,
+          "recomputed_nano_aiu": 1020070000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89873,
+          "output_tokens": 34,
+          "cache_read_tokens": 89743,
+          "cache_write_tokens": 127,
+          "reasoning_tokens": 7,
+          "model_seconds": 4.496,
+          "reported_nano_aiu": 963780000,
+          "recomputed_nano_aiu": 963780000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90093,
+          "output_tokens": 34,
+          "cache_read_tokens": 89870,
+          "cache_write_tokens": 220,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.018,
+          "reported_nano_aiu": 988300000,
+          "recomputed_nano_aiu": 988300000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90971,
+          "output_tokens": 804,
+          "cache_read_tokens": 90090,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 417,
+          "model_seconds": 17.108,
+          "reported_nano_aiu": 1925000000,
+          "recomputed_nano_aiu": 1925000000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91809,
+          "output_tokens": 72,
+          "cache_read_tokens": 90968,
+          "cache_write_tokens": 838,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.305,
+          "reported_nano_aiu": 1191780000,
+          "recomputed_nano_aiu": 1191780000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92066,
+          "output_tokens": 34,
+          "cache_read_tokens": 91806,
+          "cache_write_tokens": 257,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.627,
+          "reported_nano_aiu": 1016910000,
+          "recomputed_nano_aiu": 1016910000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92944,
+          "output_tokens": 147,
+          "cache_read_tokens": 92063,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 0,
+          "model_seconds": 7.703,
+          "reported_nano_aiu": 1287730000,
+          "recomputed_nano_aiu": 1287730000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 523.551,
+      "subagent_tool_calls": 14,
+      "started_at_utc": "2026-10-16T16:23:16.877Z",
+      "ended_at_utc": "2026-10-16T16:32:00.410Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 216,
+      "runner_all_attempts_seconds": 360.92648150000605,
+      "runner_final_seconds": 165.9256505000085,
+      "all_attempts_phases_seconds": {
+        "initialize": 3.0647369000071194,
+        "build": 72.75705060000473,
+        "preview_render": 120.04448419999972,
+        "final_render": 125.87706570001319,
+        "save": 38.88526210001146
+      },
+      "final_phases_seconds": {
+        "initialize": 1.4022412000049371,
+        "build": 29.10867680000956,
+        "preview_render": 57.2401988000056,
+        "final_render": 59.993602000002284,
+        "save": 18.073316300011356
+      },
+      "cache_read_fraction_of_input": 0.9887177603670754,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "08-azure-archipelago",
+      "title": "Azure - Cloud Archipelago",
+      "models": {
+        "gpt-6.1-sol": 11
+      },
+      "api_calls": 11,
+      "input_tokens": 975832,
+      "output_tokens": 5471,
+      "cache_read_tokens": 963002,
+      "cache_write_tokens": 12797,
+      "ai_credits": 18.30687,
+      "usd_equivalent": 0.1830687,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80601,
+      "last_input_tokens": 92817,
+      "min_input_tokens": 80601,
+      "max_input_tokens": 92817,
+      "model_seconds": 139.19299999999998,
+      "reasoning_tokens": 1747,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80601,
+          "output_tokens": 291,
+          "cache_read_tokens": 80017,
+          "cache_write_tokens": 581,
+          "reasoning_tokens": 0,
+          "model_seconds": 8.915,
+          "reported_nano_aiu": 1237020000,
+          "recomputed_nano_aiu": 1237020000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82345,
+          "output_tokens": 87,
+          "cache_read_tokens": 80598,
+          "cache_write_tokens": 1744,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.968,
+          "reported_nano_aiu": 1329580000,
+          "recomputed_nano_aiu": 1329580000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85467,
+          "output_tokens": 3728,
+          "cache_read_tokens": 82342,
+          "cache_write_tokens": 3122,
+          "reasoning_tokens": 1034,
+          "model_seconds": 65.189,
+          "reported_nano_aiu": 5332520000,
+          "recomputed_nano_aiu": 5332520000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89231,
+          "output_tokens": 142,
+          "cache_read_tokens": 85464,
+          "cache_write_tokens": 3764,
+          "reasoning_tokens": 93,
+          "model_seconds": 8.342,
+          "reported_nano_aiu": 1938240000,
+          "recomputed_nano_aiu": 1938240000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89573,
+          "output_tokens": 71,
+          "cache_read_tokens": 89228,
+          "cache_write_tokens": 342,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.563,
+          "reported_nano_aiu": 1049380000,
+          "recomputed_nano_aiu": 1049380000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 89833,
+          "output_tokens": 36,
+          "cache_read_tokens": 89570,
+          "cache_write_tokens": 260,
+          "reasoning_tokens": 0,
+          "model_seconds": 5.248,
+          "reported_nano_aiu": 997300000,
+          "recomputed_nano_aiu": 997300000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 90713,
+          "output_tokens": 844,
+          "cache_read_tokens": 89830,
+          "cache_write_tokens": 880,
+          "reasoning_tokens": 620,
+          "model_seconds": 21.327,
+          "reported_nano_aiu": 1962900000,
+          "recomputed_nano_aiu": 1962900000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91593,
+          "output_tokens": 71,
+          "cache_read_tokens": 90710,
+          "cache_write_tokens": 880,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.581,
+          "reported_nano_aiu": 1198700000,
+          "recomputed_nano_aiu": 1198700000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91722,
+          "output_tokens": 25,
+          "cache_read_tokens": 91590,
+          "cache_write_tokens": 129,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.126,
+          "reported_nano_aiu": 973750000,
+          "recomputed_nano_aiu": 973750000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91937,
+          "output_tokens": 36,
+          "cache_read_tokens": 91719,
+          "cache_write_tokens": 215,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.959,
+          "reported_nano_aiu": 1007540000,
+          "recomputed_nano_aiu": 1007540000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92817,
+          "output_tokens": 140,
+          "cache_read_tokens": 91934,
+          "cache_write_tokens": 880,
+          "reasoning_tokens": 0,
+          "model_seconds": 7.975,
+          "reported_nano_aiu": 1279940000,
+          "recomputed_nano_aiu": 1279940000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 485.593,
+      "subagent_tool_calls": 13,
+      "started_at_utc": "2026-10-16T16:32:11.325Z",
+      "ended_at_utc": "2026-10-16T16:40:16.919Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 207,
+      "runner_all_attempts_seconds": 341.0047564000124,
+      "runner_final_seconds": 185.54533010000887,
+      "all_attempts_phases_seconds": {
+        "initialize": 3.105167600006098,
+        "build": 77.89227769999707,
+        "preview_render": 120.33643120000488,
+        "final_render": 106.74376910000865,
+        "save": 32.554309000013745
+      },
+      "final_phases_seconds": {
+        "initialize": 1.6448430000018561,
+        "build": 40.531345199997304,
+        "preview_render": 63.84875750000356,
+        "final_render": 60.267724500008626,
+        "save": 19.025928500006557
+      },
+      "cache_read_fraction_of_input": 0.9868522450585756,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "09-zero-trust",
+      "title": "Azure - Zero Trust Citadel",
+      "models": {
+        "gpt-6.1-sol": 10
+      },
+      "api_calls": 10,
+      "input_tokens": 901023,
+      "output_tokens": 8755,
+      "cache_read_tokens": 885117,
+      "cache_write_tokens": 15876,
+      "ai_credits": 21.58117,
+      "usd_equivalent": 0.2158117,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80594,
+      "last_input_tokens": 95896,
+      "min_input_tokens": 80594,
+      "max_input_tokens": 95896,
+      "model_seconds": 175.565,
+      "reasoning_tokens": 3220,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80594,
+          "output_tokens": 253,
+          "cache_read_tokens": 80017,
+          "cache_write_tokens": 574,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.481,
+          "reported_nano_aiu": 1197270000,
+          "recomputed_nano_aiu": 1197270000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82317,
+          "output_tokens": 147,
+          "cache_read_tokens": 80591,
+          "cache_write_tokens": 1723,
+          "reasoning_tokens": 58,
+          "model_seconds": 4.82,
+          "reported_nano_aiu": 1384260000,
+          "recomputed_nano_aiu": 1384260000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85498,
+          "output_tokens": 5576,
+          "cache_read_tokens": 82314,
+          "cache_write_tokens": 3181,
+          "reasoning_tokens": 1542,
+          "model_seconds": 92.436,
+          "reported_nano_aiu": 7194990000,
+          "recomputed_nano_aiu": 7194990000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91108,
+          "output_tokens": 341,
+          "cache_read_tokens": 85495,
+          "cache_write_tokens": 5610,
+          "reasoning_tokens": 270,
+          "model_seconds": 9.513,
+          "reported_nano_aiu": 2599050000,
+          "recomputed_nano_aiu": 2599050000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91507,
+          "output_tokens": 44,
+          "cache_read_tokens": 91105,
+          "cache_write_tokens": 399,
+          "reasoning_tokens": 17,
+          "model_seconds": 3.302,
+          "reported_nano_aiu": 1055400000,
+          "recomputed_nano_aiu": 1055400000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91736,
+          "output_tokens": 34,
+          "cache_read_tokens": 91504,
+          "cache_write_tokens": 229,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.234,
+          "reported_nano_aiu": 1006890000,
+          "recomputed_nano_aiu": 1006890000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92614,
+          "output_tokens": 2087,
+          "cache_read_tokens": 91733,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 1308,
+          "model_seconds": 40.909,
+          "reported_nano_aiu": 3224430000,
+          "recomputed_nano_aiu": 3224430000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 94735,
+          "output_tokens": 98,
+          "cache_read_tokens": 92611,
+          "cache_write_tokens": 2121,
+          "reasoning_tokens": 25,
+          "model_seconds": 4.885,
+          "reported_nano_aiu": 1554960000,
+          "recomputed_nano_aiu": 1554960000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 95018,
+          "output_tokens": 34,
+          "cache_read_tokens": 94732,
+          "cache_write_tokens": 283,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.793,
+          "reported_nano_aiu": 1052670000,
+          "recomputed_nano_aiu": 1052670000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 95896,
+          "output_tokens": 141,
+          "cache_read_tokens": 95015,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 0,
+          "model_seconds": 6.192,
+          "reported_nano_aiu": 1311250000,
+          "recomputed_nano_aiu": 1311250000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 548.324,
+      "subagent_tool_calls": 12,
+      "started_at_utc": "2026-10-16T16:40:33.575Z",
+      "ended_at_utc": "2026-10-16T16:49:42.839Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 208,
+      "runner_all_attempts_seconds": 365.3944384000206,
+      "runner_final_seconds": 176.41105770001013,
+      "all_attempts_phases_seconds": {
+        "initialize": 2.9954075000132434,
+        "build": 85.81604939998942,
+        "preview_render": 116.56498289998854,
+        "final_render": 124.78130139999848,
+        "save": 34.908153800002765
+      },
+      "final_phases_seconds": {
+        "initialize": 1.6577257000026293,
+        "build": 42.071455099998275,
+        "preview_render": 55.030516699989676,
+        "final_render": 58.73889639999834,
+        "save": 18.757208800001536
+      },
+      "cache_read_fraction_of_input": 0.9823467325473378,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    },
+    {
+      "slug": "10-data-to-action",
+      "title": "Fabric + Foundry + Azure",
+      "models": {
+        "gpt-6.1-sol": 12
+      },
+      "api_calls": 12,
+      "input_tokens": 1083580,
+      "output_tokens": 7614,
+      "cache_read_tokens": 1069023,
+      "cache_write_tokens": 14521,
+      "ai_credits": 21.94168,
+      "usd_equivalent": 0.2194168,
+      "billing_status": "runtime_reported_complete",
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "first_input_tokens": 80594,
+      "last_input_tokens": 94541,
+      "min_input_tokens": 80594,
+      "max_input_tokens": 94541,
+      "model_seconds": 159.70000000000002,
+      "reasoning_tokens": 2198,
+      "max_billing_delta_nano_aiu": 0.0,
+      "calls": [
+        {
+          "input_tokens": 80594,
+          "output_tokens": 253,
+          "cache_read_tokens": 80017,
+          "cache_write_tokens": 574,
+          "reasoning_tokens": 0,
+          "model_seconds": 7.129,
+          "reported_nano_aiu": 1197270000,
+          "recomputed_nano_aiu": 1197270000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 82334,
+          "output_tokens": 137,
+          "cache_read_tokens": 80591,
+          "cache_write_tokens": 1740,
+          "reasoning_tokens": 48,
+          "model_seconds": 6.766,
+          "reported_nano_aiu": 1378510000,
+          "recomputed_nano_aiu": 1378510000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 85506,
+          "output_tokens": 5700,
+          "cache_read_tokens": 82331,
+          "cache_write_tokens": 3172,
+          "reasoning_tokens": 1454,
+          "model_seconds": 92.778,
+          "reported_nano_aiu": 7316910000,
+          "recomputed_nano_aiu": 7316910000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91240,
+          "output_tokens": 68,
+          "cache_read_tokens": 85503,
+          "cache_write_tokens": 5734,
+          "reasoning_tokens": 19,
+          "model_seconds": 3.829,
+          "reported_nano_aiu": 2357130000,
+          "recomputed_nano_aiu": 2357130000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91508,
+          "output_tokens": 72,
+          "cache_read_tokens": 91237,
+          "cache_write_tokens": 268,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.051,
+          "reported_nano_aiu": 1051970000,
+          "recomputed_nano_aiu": 1051970000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91638,
+          "output_tokens": 45,
+          "cache_read_tokens": 91505,
+          "cache_write_tokens": 130,
+          "reasoning_tokens": 18,
+          "model_seconds": 4.087,
+          "reported_nano_aiu": 993150000,
+          "recomputed_nano_aiu": 993150000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 91869,
+          "output_tokens": 34,
+          "cache_read_tokens": 91635,
+          "cache_write_tokens": 231,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.163,
+          "reported_nano_aiu": 1008700000,
+          "recomputed_nano_aiu": 1008700000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 92747,
+          "output_tokens": 931,
+          "cache_read_tokens": 91866,
+          "cache_write_tokens": 878,
+          "reasoning_tokens": 568,
+          "model_seconds": 18.732,
+          "reported_nano_aiu": 2069760000,
+          "recomputed_nano_aiu": 2069760000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93712,
+          "output_tokens": 70,
+          "cache_read_tokens": 92744,
+          "cache_write_tokens": 965,
+          "reasoning_tokens": 0,
+          "model_seconds": 4.017,
+          "reported_nano_aiu": 1239290000,
+          "recomputed_nano_aiu": 1239290000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 93840,
+          "output_tokens": 25,
+          "cache_read_tokens": 93709,
+          "cache_write_tokens": 128,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.729,
+          "reported_nano_aiu": 994690000,
+          "recomputed_nano_aiu": 994690000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 94051,
+          "output_tokens": 34,
+          "cache_read_tokens": 93837,
+          "cache_write_tokens": 211,
+          "reasoning_tokens": 0,
+          "model_seconds": 3.734,
+          "reported_nano_aiu": 1025720000,
+          "recomputed_nano_aiu": 1025720000.0,
+          "billing_delta_nano_aiu": 0.0
+        },
+        {
+          "input_tokens": 94541,
+          "output_tokens": 245,
+          "cache_read_tokens": 94048,
+          "cache_write_tokens": 490,
+          "reasoning_tokens": 91,
+          "model_seconds": 7.685,
+          "reported_nano_aiu": 1308580000,
+          "recomputed_nano_aiu": 1308580000.0,
+          "billing_delta_nano_aiu": 0.0
+        }
+      ],
+      "subagent_seconds": 573.971,
+      "subagent_tool_calls": 14,
+      "started_at_utc": "2026-10-16T16:49:59.705Z",
+      "ended_at_utc": "2026-10-16T16:59:34.637Z",
+      "attempts": 2,
+      "failed_attempts": 0,
+      "objects": 209,
+      "runner_all_attempts_seconds": 370.1123186999903,
+      "runner_final_seconds": 178.33054959999572,
+      "all_attempts_phases_seconds": {
+        "initialize": 2.822340400001849,
+        "build": 84.46233860000211,
+        "preview_render": 121.08756089999224,
+        "final_render": 123.4649672999949,
+        "save": 37.743520699979854
+      },
+      "final_phases_seconds": {
+        "initialize": 1.3481180000089807,
+        "build": 40.143072000006214,
+        "preview_render": 57.69940729999507,
+        "final_render": 59.314001499995356,
+        "save": 19.473711399987224
+      },
+      "cache_read_fraction_of_input": 0.9865658280883737,
+      "helper_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127"
+    }
+  ]
+}

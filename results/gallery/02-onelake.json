@@ -1,0 +1,56 @@
+{
+  "slug": "02-onelake",
+  "title": "OneLake - Shared Data",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T15:44:31.785655+00:00",
+      "source_sha256": "b1e0e42059b136c451f6c06b75ff344703bc0655d6ae9128e64a4e15034a3751",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 173,
+      "phases_seconds": {
+        "initialize": 1.6331178000109503,
+        "build": 15.282278700004099,
+        "preview_render": 25.52833190000092,
+        "final_render": 30.874530699991737,
+        "save": 9.648040000000037
+      },
+      "scene": {
+        "slug": "02-onelake",
+        "objects": 186,
+        "mesh_objects": 149,
+        "curve_objects": 24,
+        "vertices": 19490,
+        "camera_scale": 15.780488967895508,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T15:45:54.998947+00:00",
+      "total_seconds": 83.21539140000823
+    },
+    {
+      "started_at_utc": "2026-10-16T15:46:34.156826+00:00",
+      "source_sha256": "e3e6d727bfe0e0392351de18cd49410261997023d3bbd34fdefbb4349442aedb",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 178,
+      "phases_seconds": {
+        "initialize": 1.8253622000047471,
+        "build": 19.81040880001092,
+        "preview_render": 33.75281579999137,
+        "final_render": 36.569171299997834,
+        "save": 10.886134100001073
+      },
+      "scene": {
+        "slug": "02-onelake",
+        "objects": 186,
+        "mesh_objects": 149,
+        "curve_objects": 24,
+        "vertices": 19490,
+        "camera_scale": 15.99330997467041,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T15:48:17.230530+00:00",
+      "total_seconds": 103.07650870000361
+    }
+  ]
+}

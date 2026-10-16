@@ -1,0 +1,56 @@
+{
+  "slug": "07-rag-library",
+  "title": "Foundry - Knowledge Library",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T16:25:18.563002+00:00",
+      "source_sha256": "c672637d4144274efc0ab8cc1377255f23667d3779a65793f62403a0749ade41",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 116,
+      "phases_seconds": {
+        "initialize": 1.6624957000021823,
+        "build": 43.64837379999517,
+        "preview_render": 62.804285399994114,
+        "final_render": 65.8834637000109,
+        "save": 20.811945800000103
+      },
+      "scene": {
+        "slug": "07-rag-library",
+        "objects": 216,
+        "mesh_objects": 197,
+        "curve_objects": 3,
+        "vertices": 4452,
+        "camera_scale": 20.340810775756836,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:28:33.558689+00:00",
+      "total_seconds": 195.00083099999756
+    },
+    {
+      "started_at_utc": "2026-10-16T16:29:02.523258+00:00",
+      "source_sha256": "fe7b520e50dfa3dd62140c73731e26fc929891d6c03873ad24d8ab0d4bcc24e7",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 116,
+      "phases_seconds": {
+        "initialize": 1.4022412000049371,
+        "build": 29.10867680000956,
+        "preview_render": 57.2401988000056,
+        "final_render": 59.993602000002284,
+        "save": 18.073316300011356
+      },
+      "scene": {
+        "slug": "07-rag-library",
+        "objects": 216,
+        "mesh_objects": 197,
+        "curve_objects": 3,
+        "vertices": 4452,
+        "camera_scale": 20.3408145904541,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:31:48.444593+00:00",
+      "total_seconds": 165.9256505000085
+    }
+  ]
+}

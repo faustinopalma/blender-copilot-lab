@@ -1,0 +1,150 @@
+{
+  "measurement": "Local runtime accounting, not an invoice or account-balance check",
+  "conversion": {
+    "nano_aiu_per_ai_credit": 1000000000,
+    "usd_per_ai_credit": 0.01
+  },
+  "deduplication": "sourceSessionId + accounting.usageId; no checkpoint totals added",
+  "sources": [
+    {
+      "label": "coordinator",
+      "api_calls": 72,
+      "models": {
+        "gpt-6.1-sol": 72
+      },
+      "first_usage_at": "2026-10-16T13:08:35.538Z",
+      "last_usage_at": "2026-10-16T14:01:40.746Z",
+      "input_tokens": 7635958,
+      "output_tokens": 69735,
+      "cache_read_tokens": 7303983,
+      "cache_write_tokens": 331759,
+      "complete_credit_records": 72,
+      "unresolved_credit_records": 0,
+      "reported_nano_aiu": 225757780000,
+      "tool_counts": {
+        "skill": 1,
+        "view": 42,
+        "powershell": 56,
+        "web_search": 2,
+        "sql": 7,
+        "web_fetch": 21,
+        "rg": 19,
+        "apply_patch": 10,
+        "tool_search_tool": 3,
+        "stop_powershell": 1,
+        "runTests": 2,
+        "add_artifact_or_reference": 1,
+        "task_complete": 1,
+        "session_store_sql": 2,
+        "get_current_session": 1,
+        "blender-local-get_addon_status": 1,
+        "blender-local-get_scene_info": 1,
+        "task": 2,
+        "blender-local-execute_blender_code": 2
+      },
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "billing_status": "runtime_reported_complete",
+      "ai_credits": 225.75778,
+      "usd_equivalent": 2.2575778
+    },
+    {
+      "api_calls": 17,
+      "models": {
+        "gpt-6.1-sol": 17
+      },
+      "first_usage_at": "2026-10-16T13:45:26.751Z",
+      "last_usage_at": "2026-10-16T13:49:32.603Z",
+      "input_tokens": 1360355,
+      "output_tokens": 9100,
+      "cache_read_tokens": 1273697,
+      "cache_write_tokens": 86607,
+      "complete_credit_records": 17,
+      "unresolved_credit_records": 0,
+      "reported_nano_aiu": 43498920000,
+      "tool_counts": {
+        "blender-local-get_addon_status": 1,
+        "powershell": 7,
+        "blender-local-execute_blender_code": 4,
+        "apply_patch": 3,
+        "blender-local-look": 1,
+        "problems": 1
+      },
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "billing_status": "runtime_reported_complete",
+      "ai_credits": 43.49892,
+      "usd_equivalent": 0.4349892,
+      "subagent_execution": {
+        "started_at": "2026-10-16T13:45:16.472Z",
+        "completed_at": "2026-10-16T13:49:32.728Z",
+        "duration_seconds": 249.424,
+        "tool_calls": 17,
+        "tokens_reported": 1369455
+      },
+      "label": "palette"
+    },
+    {
+      "api_calls": 17,
+      "models": {
+        "gpt-6.1-sol": 17
+      },
+      "first_usage_at": "2026-10-16T13:50:56.821Z",
+      "last_usage_at": "2026-10-16T13:55:16.585Z",
+      "input_tokens": 1373804,
+      "output_tokens": 11755,
+      "cache_read_tokens": 1356687,
+      "cache_write_tokens": 17066,
+      "complete_credit_records": 17,
+      "unresolved_credit_records": 0,
+      "reported_nano_aiu": 29598570000,
+      "tool_counts": {
+        "blender-local-get_addon_status": 1,
+        "powershell": 7,
+        "apply_patch": 1,
+        "blender-local-execute_blender_code": 4,
+        "blender-local-look": 3,
+        "view": 1
+      },
+      "rates_usd_per_million_tokens": {
+        "gpt-6.1-sol": {
+          "input": 2.0,
+          "cache_read": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      "billing_status": "runtime_reported_complete",
+      "ai_credits": 29.59857,
+      "usd_equivalent": 0.2959857,
+      "subagent_execution": {
+        "started_at": "2026-10-16T13:50:42.193Z",
+        "completed_at": "2026-10-16T13:55:16.665Z",
+        "duration_seconds": 267.222,
+        "tool_calls": 17,
+        "tokens_reported": 1385559
+      },
+      "label": "loop-three-iterations"
+    }
+  ],
+  "prior_session_shutdowns": [
+    {
+      "timestamp": "2026-10-16T13:40:54.383Z",
+      "ai_credits": 129.83701,
+      "usd_equivalent": 1.2983701
+    }
+  ],
+  "captured_at_utc": "2026-10-16T14:01:41.963398+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "04-data-factory",
+  "title": "Data Factory - Flow Works",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T15:58:40.355525+00:00",
+      "source_sha256": "a7d2f3bfeb34a716f2076e2695462d85f1642f86385fe1748900f38bb5baece5",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 126,
+      "phases_seconds": {
+        "initialize": 1.4159577000100398,
+        "build": 37.407166499993764,
+        "preview_render": 55.792235200002324,
+        "final_render": 61.033595099987,
+        "save": 17.179073599996627
+      },
+      "scene": {
+        "slug": "04-data-factory",
+        "objects": 199,
+        "mesh_objects": 184,
+        "curve_objects": 3,
+        "vertices": 9546,
+        "camera_scale": 18.103336334228516,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:01:33.345976+00:00",
+      "total_seconds": 172.99497610000253
+    },
+    {
+      "started_at_utc": "2026-10-16T16:02:10.585982+00:00",
+      "source_sha256": "0e3e2a5cd7b7ccabbadc52ffa967097c76e04bf596aedc0097f1d94ead11d2bc",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 134,
+      "phases_seconds": {
+        "initialize": 1.3892638999968767,
+        "build": 44.173341400004574,
+        "preview_render": 58.3930965999898,
+        "final_render": 64.18069320000359,
+        "save": 17.91306930000428
+      },
+      "scene": {
+        "slug": "04-data-factory",
+        "objects": 205,
+        "mesh_objects": 191,
+        "curve_objects": 3,
+        "vertices": 9722,
+        "camera_scale": 18.103336334228516,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:05:16.814297+00:00",
+      "total_seconds": 186.23306779999984
+    }
+  ]
+}

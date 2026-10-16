@@ -1,0 +1,56 @@
+{
+  "slug": "03-medallion",
+  "title": "Fabric - Medallion Architecture",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T15:50:35.273863+00:00",
+      "source_sha256": "be42e1cccf7bd8ef69a13fefbecfe06f03ac5bb8efc08640261240255eaf0118",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 125,
+      "phases_seconds": {
+        "initialize": 1.5095520000031684,
+        "build": 26.840635899992776,
+        "preview_render": 43.42487109999638,
+        "final_render": 57.12041269999463,
+        "save": 15.627791100007016
+      },
+      "scene": {
+        "slug": "03-medallion",
+        "objects": 194,
+        "mesh_objects": 178,
+        "curve_objects": 0,
+        "vertices": 15253,
+        "camera_scale": 16.028425216674805,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T15:52:59.960938+00:00",
+      "total_seconds": 144.69085949999862
+    },
+    {
+      "started_at_utc": "2026-10-16T15:53:26.562770+00:00",
+      "source_sha256": "79645cb1f634e6332ad1447679ee5e01370f2de20be8218e8e1efb65e294822a",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 128,
+      "phases_seconds": {
+        "initialize": 1.3431266999978106,
+        "build": 38.35109029999876,
+        "preview_render": 56.737761900003534,
+        "final_render": 59.4013730000006,
+        "save": 16.971594900009222
+      },
+      "scene": {
+        "slug": "03-medallion",
+        "objects": 194,
+        "mesh_objects": 178,
+        "curve_objects": 0,
+        "vertices": 15253,
+        "camera_scale": 16.028425216674805,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T15:56:19.542726+00:00",
+      "total_seconds": 172.98417720000725
+    }
+  ]
+}

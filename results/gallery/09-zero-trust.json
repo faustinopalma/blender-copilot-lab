@@ -1,0 +1,56 @@
+{
+  "slug": "09-zero-trust",
+  "title": "Azure - Zero Trust Citadel",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T16:42:32.637729+00:00",
+      "source_sha256": "1da52b3773e0c33725fe353d0dc2b76336c8ae1c5e4bd5cd3d6ba8564ad260cc",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 187,
+      "phases_seconds": {
+        "initialize": 1.337681800010614,
+        "build": 43.74459429999115,
+        "preview_render": 61.53446619999886,
+        "final_render": 66.04240500000014,
+        "save": 16.15094500000123
+      },
+      "scene": {
+        "slug": "09-zero-trust",
+        "objects": 209,
+        "mesh_objects": 184,
+        "curve_objects": 10,
+        "vertices": 13260,
+        "camera_scale": 17.230501174926758,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:45:41.613526+00:00",
+      "total_seconds": 188.98338070001046
+    },
+    {
+      "started_at_utc": "2026-10-16T16:46:34.136178+00:00",
+      "source_sha256": "a4a1590b7bc1b332fe3747c6089338993773ce58b3a6e0d0c8c583bf33c3a876",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 191,
+      "phases_seconds": {
+        "initialize": 1.6577257000026293,
+        "build": 42.071455099998275,
+        "preview_render": 55.030516699989676,
+        "final_render": 58.73889639999834,
+        "save": 18.757208800001536
+      },
+      "scene": {
+        "slug": "09-zero-trust",
+        "objects": 208,
+        "mesh_objects": 184,
+        "curve_objects": 10,
+        "vertices": 13260,
+        "camera_scale": 17.23050308227539,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:49:30.531329+00:00",
+      "total_seconds": 176.41105770001013
+    }
+  ]
+}

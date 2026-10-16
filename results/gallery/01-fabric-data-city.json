@@ -1,0 +1,56 @@
+{
+  "slug": "01-fabric-data-city",
+  "title": "Fabric - Data City",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T15:39:01.009602+00:00",
+      "source_sha256": "b82752b2794cc83e422224b5dfff857478f3199482054fdd77a3f7b530997ca7",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 130,
+      "phases_seconds": {
+        "initialize": 1.5139411000127438,
+        "build": 12.266138400009368,
+        "preview_render": 16.157864900000277,
+        "final_render": 18.778879999998026,
+        "save": 6.526840899998206
+      },
+      "scene": {
+        "slug": "01-fabric-data-city",
+        "objects": 198,
+        "mesh_objects": 180,
+        "curve_objects": 7,
+        "vertices": 18558,
+        "camera_scale": 17.685285568237305,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T15:39:56.372477+00:00",
+      "total_seconds": 55.36340200000268
+    },
+    {
+      "started_at_utc": "2026-10-16T15:40:31.522132+00:00",
+      "source_sha256": "bbe8270a82f7c830c187b13d28477458fb26c78dac4d5c679d7b72ef8874433d",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 134,
+      "phases_seconds": {
+        "initialize": 1.5162344999989728,
+        "build": 17.07007909999811,
+        "preview_render": 21.241326499992283,
+        "final_render": 21.61857869999949,
+        "save": 7.767141600008472
+      },
+      "scene": {
+        "slug": "01-fabric-data-city",
+        "objects": 204,
+        "mesh_objects": 186,
+        "curve_objects": 7,
+        "vertices": 18726,
+        "camera_scale": 17.685285568237305,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T15:41:40.896695+00:00",
+      "total_seconds": 69.37624099999084
+    }
+  ]
+}

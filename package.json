@@ -1,0 +1,12 @@
+{
+  "name": "blender-copilot-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted interactive GLB gallery for the Blender MCP experiment",
+  "scripts": {
+    "prepare:viewer": "node scripts/prepare_viewer.cjs"
+  },
+  "dependencies": {
+    "@google/model-viewer": "4.3.1"
+  }
+}

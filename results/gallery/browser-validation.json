@@ -1,0 +1,33 @@
+{
+  "method": "VS Code integrated browser controlled with Playwright; local HTTP; one sequential selection pass, not a repeatable performance benchmark",
+  "checks": {
+    "ten_glbs_loaded_with_positive_finite_xyz_dimensions": true,
+    "same_subject_reselection_remains_ready": true,
+    "real_pointer_drag_changes_camera_orbit": true,
+    "wheel_zoom_changes_camera_radius": true,
+    "right_drag_changes_camera_target": true,
+    "reset_restores_default_orbit_and_target": true,
+    "mobile_390px_has_no_horizontal_overflow": true,
+    "reduced_motion_disables_automatic_rotation": true,
+    "missing_glb_reports_explicit_error": true,
+    "selection_recovers_after_load_failure": true,
+    "external_runtime_resource_requests": 0
+  },
+  "orbit_test_radians": {
+    "theta_before": 0.6108652381980153,
+    "theta_after_drag": -0.15164908374523467
+  },
+  "selection_timings": [
+    {"slug": "01-fabric-data-city", "milliseconds": 89, "note": "Already loaded; reselection test, not asset load time"},
+    {"slug": "02-onelake", "milliseconds": 263},
+    {"slug": "03-medallion", "milliseconds": 312},
+    {"slug": "04-data-factory", "milliseconds": 135},
+    {"slug": "05-foundry-forge", "milliseconds": 218},
+    {"slug": "06-agent-team", "milliseconds": 142},
+    {"slug": "07-rag-library", "milliseconds": 186},
+    {"slug": "08-azure-archipelago", "milliseconds": 213},
+    {"slug": "09-zero-trust", "milliseconds": 247},
+    {"slug": "10-data-to-action", "milliseconds": 226}
+  ],
+  "timing_caveat": "Button interaction through ready event, includes automation and decoding/render preparation; warm local filesystem, HTTP cache disabled for this pass. No inference or credit consumption by the viewer itself."
+}

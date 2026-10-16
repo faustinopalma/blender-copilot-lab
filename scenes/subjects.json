@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "01-fabric-data-city",
+    "title": "Fabric - Data City",
+    "brief": "An isometric miniature data city. Central luminous teal lake, three distinct architectural districts for ingestion, processing and analytics. Bridges and glowing data streams connect the districts to the shared lake. Mix server towers, a pipeline gateway and a small dashboard billboard; roads, small trees and data-cube parcels add detail. Readable labels INGEST, PROCESS, ANALYZE; make it a charming designed city, not a row of cubes.",
+    "required_name_fragments": ["lake", "ingest", "process", "analy"]
+  },
+  {
+    "slug": "02-onelake",
+    "title": "OneLake - Shared Data",
+    "brief": "A floating circular lake with vivid teal water above a faceted rock island. Three smaller floating source islands send blue/teal streams into the same lake. Docks with tiny warehouse and analytics buildings use the shared water. Add a small boat, ripples, reeds, waterfall ribbons and floating data cubes. Label source islands FILES, TABLES, EVENTS. Central label ONE LAKE. Distinct silhouette from a city.",
+    "required_name_fragments": ["lake", "source", "dock", "stream"]
+  },
+  {
+    "slug": "03-medallion",
+    "title": "Fabric - Medallion Architecture",
+    "brief": "Three ascending circular terraces of bronze, silver and gold linked by conveyor bridges. Left bronze contains scattered uneven raw data fragments. Middle silver has organized clean rows/cubes. Right elevated gold has polished information crystals and a miniature bar chart. Show luminous flow direction with particles/arrows. Label BRONZE / RAW, SILVER / CLEAN, GOLD / READY. Strong material contrast and premium infographic sculpture.",
+    "required_name_fragments": ["bronze", "silver", "gold", "bridge"]
+  },
+  {
+    "slug": "04-data-factory",
+    "title": "Data Factory - Flow Works",
+    "brief": "A miniature industrial data factory with a sawtooth-roof processing hall, external machinery, thick glowing curved pipes and conveyor belts. Raw coral parcels enter an intake gate, pass through two distinct processing stations and emerge as neat teal cubes into storage. Add smokestack-free cooling fans, railings and a small forklift/maintenance robot. Label INGEST, TRANSFORM, DELIVER. Visually rich readable assembly line, not a real Azure deployment diagram.",
+    "required_name_fragments": ["factory", "conveyor", "pipe", "station"]
+  },
+  {
+    "slug": "05-foundry-forge",
+    "title": "Foundry - Agent Forge",
+    "brief": "A futuristic open-front workshop where a central robot agent is assembled in a glowing amber/violet forge ring. Three surrounding supply stations labeled MODEL, TOOLS and KNOWLEDGE feed physical modules toward the agent. Include articulated robotic gantry arms, tool racks, conveyor tiles, overhead arc and a finished small robot awaiting departure. Violet and warm amber palette; cozy sci-fi industrial character.",
+    "required_name_fragments": ["forge", "model", "tool", "knowledge"]
+  },
+  {
+    "slug": "06-agent-team",
+    "title": "Foundry - Agent Team",
+    "brief": "Three distinct robots around a circular holographic collaboration table: teal RESEARCHER with document cards, blue BUILDER with wrench/tool, amber REVIEWER with shield/check symbol. Add glowing handoff paths linking them and a shared central task crystal. Each robot has eyes and unique accessory; small raised pads, cables and a backdrop console. Visually communicate team coordination, not just three identical robots.",
+    "required_name_fragments": ["research", "build", "review", "handoff"]
+  },
+  {
+    "slug": "07-rag-library",
+    "title": "Foundry - Knowledge Library",
+    "brief": "An open-front intelligent library diorama: two tall book-filled shelves, a scanning/retrieval arch, luminous document fragments travelling through the arch, and a friendly robot at a desk assembling an answer card with visible citation tabs [1] [2] [3]. Add a ladder, reading lamp and floor inlays. Label RETRIEVE, GROUND, ANSWER. Warm books contrast with teal/violet computation. Keep interior visible from gallery camera.",
+    "required_name_fragments": ["shelf", "document", "answer", "citation"]
+  },
+  {
+    "slug": "08-azure-archipelago",
+    "title": "Azure - Cloud Archipelago",
+    "brief": "Four independent floating rocky islands linked by elegant luminous suspension bridges: COMPUTE with server towers, STORAGE with cylindrical data tanks, NETWORK with transmission mast and arcs, AI with violet faceted neural crystal. Add fluffy stylized cloud clusters below, status lights and packet cubes traversing bridges. Azure blue and white, clearly floating with varied elevations; not a flat collection of platforms.",
+    "required_name_fragments": ["compute", "storage", "network", "bridge"]
+  },
+  {
+    "slug": "09-zero-trust",
+    "title": "Azure - Zero Trust Citadel",
+    "brief": "A layered sci-fi security citadel: outer octagonal segmented walls, two sequential illuminated identity checkpoints, central secure vault tower with an original shield and keyhole motif. A gold token must pass each blue/teal gate; paths visibly connect checkpoints to vault. Add watch sensors, key crystals inside, tiny robot visitor and cyan circuit floor. Label VERIFY, LEAST PRIVILEGE, VAULT. Keep gates and vault visible, not hidden behind tall walls.",
+    "required_name_fragments": ["vault", "checkpoint", "wall", "identity"]
+  },
+  {
+    "slug": "10-data-to-action",
+    "title": "Fabric + Foundry + Azure",
+    "brief": "A complete three-stage narrative diorama: left Fabric data lake and miniature bronze/silver/gold steps, middle Foundry agent workshop with robot and knowledge cards, right Azure app pavilion with large screen and user terminal. A continuous glowing impulse route carries physical data packets through all three stages. Distinct teal, violet and blue zones joined into one polished exhibit. Label FABRIC / PREPARE, FOUNDRY / REASON, AZURE / DELIVER. Synthesize motifs with custom details; do not import other scene files.",
+    "required_name_fragments": ["fabric", "foundry", "azure", "impulse"]
+  }
+]

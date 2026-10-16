@@ -1,0 +1,21 @@
+{
+  "servers": {
+    "blender-local": {
+      "type": "stdio",
+      "command": "C:\\code\\BlenderMCP\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\code\\BlenderMCP\\scripts\\mcp_local.py", "--host", "127.0.0.1", "--port", "9876"],
+      "env": {
+        "BLENDER_HOST": "127.0.0.1",
+        "BLENDER_PORT": "9876",
+        "BLENDER_MCP_SAFE_MODE": "1",
+        "BLENDER_MCP_DISABLE_TELEMETRY": "1",
+        "DISABLE_TELEMETRY": "1",
+        "MCP_DISABLE_TELEMETRY": "1",
+        "BLENDERMCP_NO_UPDATE_CHECK": "1",
+        "BLENDERMCP_ADDONS_DIR": "C:\\code\\BlenderMCP\\vendor\\mcp-for-blender",
+        "APPDATA": "C:\\code\\BlenderMCP\\.blender-user\\server-data",
+        "XDG_CONFIG_HOME": "C:\\code\\BlenderMCP\\.blender-user\\server-config"
+      }
+    }
+  }
+}

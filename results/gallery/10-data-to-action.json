@@ -1,0 +1,56 @@
+{
+  "slug": "10-data-to-action",
+  "title": "Fabric + Foundry + Azure",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-16T16:52:37.200054+00:00",
+      "source_sha256": "0d19ce47f45d03cf6fb7dedf796d93c0eaa1d1e1b1e0242658c4454f22a58584",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 150,
+      "phases_seconds": {
+        "initialize": 1.4742223999928683,
+        "build": 44.3192665999959,
+        "preview_render": 63.38815359999717,
+        "final_render": 64.15096579999954,
+        "save": 18.26980929999263
+      },
+      "scene": {
+        "slug": "10-data-to-action",
+        "objects": 206,
+        "mesh_objects": 178,
+        "curve_objects": 4,
+        "vertices": 13766,
+        "camera_scale": 16.213159561157227,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:55:48.964356+00:00",
+      "total_seconds": 191.78176909999456
+    },
+    {
+      "started_at_utc": "2026-10-16T16:56:18.668552+00:00",
+      "source_sha256": "1857e4f33cd3a84a5f65d5903cff372ce6bab6f0252626a6c49c4769c4804562",
+      "common_sha256": "85e5029a5e48fbd536e6eeb4d38138f457285038831398d64a213f2e47c43127",
+      "source_lines": 153,
+      "phases_seconds": {
+        "initialize": 1.3481180000089807,
+        "build": 40.143072000006214,
+        "preview_render": 57.69940729999507,
+        "final_render": 59.314001499995356,
+        "save": 19.473711399987224
+      },
+      "scene": {
+        "slug": "10-data-to-action",
+        "objects": 209,
+        "mesh_objects": 181,
+        "curve_objects": 4,
+        "vertices": 13790,
+        "camera_scale": 16.213159561157227,
+        "blender": "5.2.2 LTS"
+      },
+      "status": "success",
+      "ended_at_utc": "2026-10-16T16:59:16.982900+00:00",
+      "total_seconds": 178.33054959999572
+    }
+  ]
+}
